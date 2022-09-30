@@ -1,0 +1,101 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:soul_campfire",
+              "Properties": {
+                "facing": "north",
+                "lit": "true"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:soul_campfire",
+            "Properties": {
+              "facing": "north",
+              "lit": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:soul_campfire",
+              "Properties": {
+                "facing": "south",
+                "lit": "true"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:soul_campfire",
+            "Properties": {
+              "facing": "south",
+              "lit": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:soul_campfire",
+              "Properties": {
+                "facing": "west",
+                "lit": "true"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:soul_campfire",
+            "Properties": {
+              "facing": "west",
+              "lit": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:soul_campfire",
+              "Properties": {
+                "facing": "east",
+                "lit": "true"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:soul_campfire",
+            "Properties": {
+              "facing": "east",
+              "lit": "false"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

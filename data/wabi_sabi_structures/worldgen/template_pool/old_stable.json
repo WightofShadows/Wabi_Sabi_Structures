@@ -1,0 +1,33 @@
+{
+  "name": "wabi_sabi_structures:old_stable",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:old_stable/old_stable",
+        "processors": "wabi_sabi_structures:old_stable"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:old_stable/decaying_stable",
+        "processors": "wabi_sabi_structures:decaying_stable"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:old_stable/new_stable",
+        "processors": "wabi_sabi_structures:new_stable"
+      }
+    }
+  ]
+}

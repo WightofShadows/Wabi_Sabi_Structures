@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:mossy_roof_shed",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:mossy_roof_shed/mossy_roof_shed",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,347 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:deepslate",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:deepslate_redstone_ore"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:exposed_cut_copper_slab",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:exposed_cut_copper_slab",
+              "Properties": {
+                "type": "top",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.12
+          },
+          "output_state": {
+            "Name": "minecraft:cut_copper_slab",
+            "Properties": {
+              "type": "top",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:chain",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "north",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:medium_amethyst_bud",
+            "Properties": {
+              "facing": "north",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "east",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:medium_amethyst_bud",
+            "Properties": {
+              "facing": "east",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "south",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:medium_amethyst_bud",
+            "Properties": {
+              "facing": "south",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "west",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:medium_amethyst_bud",
+            "Properties": {
+              "facing": "west",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "up",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:medium_amethyst_bud",
+            "Properties": {
+              "facing": "up",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "down",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:medium_amethyst_bud",
+            "Properties": {
+              "facing": "down",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "north",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:large_amethyst_bud",
+            "Properties": {
+              "facing": "north",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "east",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:large_amethyst_bud",
+            "Properties": {
+              "facing": "east",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "south",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:large_amethyst_bud",
+            "Properties": {
+              "facing": "south",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "west",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:large_amethyst_bud",
+            "Properties": {
+              "facing": "west",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "up",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:large_amethyst_bud",
+            "Properties": {
+              "facing": "up",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:small_amethyst_bud",
+              "Properties": {
+                "facing": "down",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:large_amethyst_bud",
+            "Properties": {
+              "facing": "down",
+              "waterlogged": "false"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

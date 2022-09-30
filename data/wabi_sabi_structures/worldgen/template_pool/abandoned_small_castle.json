@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:abandoned_small_castle",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:abandoned_small_castle/abandoned_small_castle",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:abandoned_small_castle"
+            }
+        }
+    ]
+}

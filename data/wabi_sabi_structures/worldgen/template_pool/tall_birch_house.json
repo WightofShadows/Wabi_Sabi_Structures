@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:tall_birch_house",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:tall_birch_house/tall_birch_house",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:warped_ender_claw",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:warped_ender_claw/warped_ender_claw",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:warped_ender_claw"
+            }
+        }
+    ]
+}

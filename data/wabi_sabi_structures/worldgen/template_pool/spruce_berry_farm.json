@@ -1,0 +1,24 @@
+{
+  "name": "wabi_sabi_structures:spruce_berry_farm",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:spruce_berry_farm/spruce_berry_farm",
+        "processors": "wabi_sabi_structures:spruce_berry_farm"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:spruce_berry_farm/spruce_berry_farm_fox",
+        "processors": "wabi_sabi_structures:spruce_berry_farm_fox"
+      }
+    }
+  ]
+}

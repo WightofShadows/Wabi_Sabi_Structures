@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:memorial_of_tonkis",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:memorial_of_tonkis/memorial_of_tonkis",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:memorial_of_tonkis"
+            }
+        }
+    ]
+}

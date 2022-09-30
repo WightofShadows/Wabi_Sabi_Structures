@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+      "minecraft:dark_forest",
+      "minecraft:sparse_jungle",
+      "minecraft:mangrove_swamp",
+      "minecraft:mushroom_fields",
+      "minecraft:old_growth_spruce_taiga",
+      "minecraft:old_growth_pine_taiga"
+    ],
+    "adapt_noise": true,
+	"spawn_overrides": {},
+	"terrain_adaptation": "beard_thin",
+    "start_pool": "wabi_sabi_structures:wandering_trader_cart",
+    "size": 7,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "MOTION_BLOCKING",
+    "max_distance_from_center": 50,
+    "use_expansion_hack": false
+}

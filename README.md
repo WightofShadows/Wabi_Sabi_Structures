@@ -1,6 +1,6 @@
 ![alt text](https://i.imgur.com/1EiT59N.png)
 ### Click here to visit the Curseforge page
-### Consider joining our community on Discord for updates, to make suggestions, or to share your structure screenshots!
+### Consider joining our community on [Discord](https://discord.gg/xJZbkfPrxJ) for updates, to make suggestions, or to share your structure screenshots!
 
 Wabi-Sabi Structures adds a plethora of new structures that generate throughout your Minecraft world, all designed with the Japanese philosophy of "Wabi-Sabi" in mind - embracing imperfection while still being aesthetically interesting.
 
@@ -51,7 +51,7 @@ We have many more plans for new structures and themed updates in the future, whi
 
 ## License
 
-Wabi-Sabi Structures is licensed under CC BY-NC-SA 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International).
+Wabi-Sabi Structures is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International).
 
 As long as it is NOT for commercial purposes, you may:
   - Share the mod or datapack using this link.

@@ -9,6 +9,149 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wet_sponge",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wet_sponge",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_trapdoor",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:vine",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:torch",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cobweb",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:crafting_table",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:moss_block",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:coarse_dirt",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:moss_carpet",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:red_tulip",
             "probability": 0.05
           },
@@ -28,6 +171,39 @@
           "output_state": {
             "Name": "minecraft:grass"
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:mangrove_roots",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:beehive",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:mangrove_roots",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:beehive",
+            "Properties": {
+              "facing": "west"
+            }
+          },
+          "output_nbt": {"Bees":[{"EntityData":{"id":"minecraft:bee"}}]}
         },
         {
           "location_predicate": {
@@ -125,12 +301,91 @@
             "predicate_type": "minecraft:always_true"
           },
           "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:beehive",
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:campfire",
+              "Properties": {
+                "facing": "north",
+                "lit": "true"
+              }
+            },
             "probability": 0.25
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "Name": "minecraft:campfire",
+            "Properties": {
+              "facing": "north",
+              "lit": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:campfire",
+              "Properties": {
+                "facing": "south",
+                "lit": "true"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:campfire",
+            "Properties": {
+              "facing": "south",
+              "lit": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:campfire",
+              "Properties": {
+                "facing": "west",
+                "lit": "true"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:campfire",
+            "Properties": {
+              "facing": "west",
+              "lit": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:campfire",
+              "Properties": {
+                "facing": "east",
+                "lit": "true"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:campfire",
+            "Properties": {
+              "facing": "east",
+              "lit": "false"
+            }
           }
         }
       ]

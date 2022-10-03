@@ -28,6 +28,15 @@
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:small_river_barge"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:river_boat/small_roofed_dinghy",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:small_roofed_dinghy"
+            }
         }
     ]
 }

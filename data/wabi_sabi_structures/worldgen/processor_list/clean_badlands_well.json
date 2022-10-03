@@ -9,11 +9,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:anvil",
-            "probability": 0.70
+            "block": "minecraft:seagrass",
+            "probability": 0.80
           },
           "output_state": {
-            "Name": "minecraft:smooth_stone"
+            "Name": "minecraft:water"
           }
         },
         {
@@ -22,14 +22,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:anvil",
-            "probability": 0.35
+            "block": "minecraft:moss_carpet",
+            "probability": 0.75
           },
           "output_state": {
-            "Name": "minecraft:damaged_anvil",
-            "Properties": {
-              "facing": "east"
-            }
+            "Name": "minecraft:air"
           }
         },
         {
@@ -38,14 +35,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:anvil",
-            "probability": 0.55
+            "block": "minecraft:cobweb",
+            "probability": 0.80
           },
           "output_state": {
-            "Name": "minecraft:chipped_anvil",
-            "Properties": {
-              "facing": "east"
-            }
+            "Name": "minecraft:air"
           }
         },
         {
@@ -54,8 +48,75 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:coarse_dirt",
+            "block": "minecraft:candle",
             "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:water_cauldron",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:cauldron"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:water_cauldron",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:water_cauldron"
+          },
+          "output_nbt": {"Level":1}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:water_cauldron",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:water_cauldron"
+          },
+          "output_nbt": {"Level":2}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:mud_brick_stairs",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:mud_brick_slab"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:mud_bricks",
+            "probability": 0.02
           },
           "output_state": {
             "Name": "minecraft:packed_mud"
@@ -67,62 +128,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 0.33
+            "block": "minecraft:mud_bricks",
+            "probability": 0.01
           },
           "output_state": {
-            "Name": "minecraft:beetroots",
-            "Properties": {
-              "age": "3"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 0.50
-          },
-          "output_state": {
-            "Name": "minecraft:wheat",
-            "Properties": {
-              "age": "7"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 0.35
-          },
-          "output_state": {
-            "Name": "minecraft:wheat",
-            "Properties": {
-              "age": "6"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 1.00
-          },
-          "output_state": {
-            "Name": "minecraft:wheat",
-            "Properties": {
-              "age": "5"
-            }
+            "Name": "minecraft:mud_brick_slab"
           }
         }
       ]

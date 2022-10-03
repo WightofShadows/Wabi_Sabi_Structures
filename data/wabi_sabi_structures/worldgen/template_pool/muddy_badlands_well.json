@@ -8,7 +8,16 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "wabi_sabi_structures:muddy_badlands_well/muddy_badlands_well",
                 "projection": "rigid",
-                "processors": "minecraft:empty"
+                "processors": "wabi_sabi_structures:muddy_badlands_well"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:muddy_badlands_well/clean_badlands_well",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:clean_badlands_well"
             }
         }
     ]

@@ -8,7 +8,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "wabi_sabi_structures:totem_pole/totem_pole_1",
-        "processors": "minecraft:empty"
+        "processors": "wabi_sabi_structures:totem_pole"
       }
     },
     {
@@ -17,7 +17,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "wabi_sabi_structures:totem_pole/totem_pole_2",
-        "processors": "minecraft:empty"
+        "processors": "wabi_sabi_structures:totem_pole"
       }
     },
     {

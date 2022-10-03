@@ -6,9 +6,18 @@
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:memorial_of_tonkis/memorial_of_tonkis",
+                "location": "wabi_sabi_structures:memorial_of_tonkis/dripstone_memorial_of_tonkis",
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:memorial_of_tonkis"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:memorial_of_tonkis/blue_flame_memorial_of_tonkis",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
             }
         }
     ]

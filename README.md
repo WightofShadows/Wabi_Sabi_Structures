@@ -14,7 +14,7 @@ In addition, many of our structures utilize mechanics present in vanilla Minecra
 You can use the Issue Tracker on this GitHub to report bugs or any other issues with the mod or datapack.
 
 When creating an issue, we reccommend you:
-  - State the version of the mod and Fabric version you are using
+  - State the version of the mod and Forge or Fabric version you are using
   - Specify if it is Singleplayer or Multiplayer
   - Provide a detailed description of the problem (describe in steps if necessary!)
   - Provide crash logs if there are any

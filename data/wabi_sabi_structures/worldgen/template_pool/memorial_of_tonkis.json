@@ -17,7 +17,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "wabi_sabi_structures:memorial_of_tonkis/blue_flame_memorial_of_tonkis",
                 "projection": "rigid",
-                "processors": "minecraft:empty"
+                "processors": "wabi_sabi_structures:memorial_of_tonkis"
             }
         }
     ]

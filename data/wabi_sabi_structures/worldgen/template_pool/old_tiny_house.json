@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "wabi_sabi_structures:old_tiny_house/old_tiny_house",
                 "projection": "rigid",
-                "processors": "minecraft:empty"
+                "processors": "wabi_sabi_structures:old_tiny_house"
             }
         }
     ]

@@ -1,13 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-      "minecraft:dark_forest",
-      "minecraft:sparse_jungle",
-      "minecraft:mangrove_swamp",
-      "minecraft:mushroom_fields",
-      "minecraft:old_growth_spruce_taiga",
-      "minecraft:old_growth_pine_taiga"
-    ],
+    "biomes": "#wabi_sabi_structures:has_structure/wandering_trader_cart",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",

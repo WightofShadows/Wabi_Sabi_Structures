@@ -1,10 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-      "minecraft:windswept_forest",
-      "minecraft:windswept_hills",
-      "minecraft:windswept_gravelly_hills"
-    ],
+    "biomes": "#wabi_sabi_structures:has_structure/infested_castle",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",

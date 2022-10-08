@@ -1,9 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-      "minecraft:birch_forest",
-      "minecraft:old_growth_birch_forest"
-    ],
+    "biomes": "#wabi_sabi_structures:has_structure/birch_mushroom_cave",
     "adapt_noise": true,
 	"spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:birch_mushroom_cave",

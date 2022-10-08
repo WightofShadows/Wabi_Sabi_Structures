@@ -1,9 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-      "minecraft:swamp",
-      "minecraft:mangrove_swamp"
-    ],
+    "biomes": "#wabi_sabi_structures:has_structure/beetroot_patch",
     "adapt_noise": true,
 	"spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:beetroot_patch",

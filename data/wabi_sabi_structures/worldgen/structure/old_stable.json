@@ -1,9 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-      "minecraft:savanna",
-      "minecraft:plains"
-    ],
+    "biomes": "#wabi_sabi_structures:has_structure/old_stable",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",

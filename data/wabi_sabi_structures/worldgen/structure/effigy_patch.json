@@ -1,13 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-      "minecraft:dark_forest",
-      "minecraft:mangrove_swamp",
-      "minecraft:windswept_savanna",
-      "minecraft:mushroom_fields",
-      "minecraft:swamp",
-      "minecraft:jungle"
-    ],
+    "biomes": "#wabi_sabi_structures:has_structure/effigy_patch",
     "adapt_noise": true,
 	"spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:effigy_patch",

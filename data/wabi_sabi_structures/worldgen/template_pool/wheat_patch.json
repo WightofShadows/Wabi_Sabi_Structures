@@ -7,62 +7,17 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/tiny_4_wheat_patch",
-        "processors": "minecraft:empty"
+        "location": "wabi_sabi_structures:wheat_patch/tiny_wheat_patch_variant_1",
+        "processors": "wabi_sabi_structures:wheat_patch_tiny"
       }
     },
     {
-      "weight": 9,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/tiny_5_wheat_patch",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 7,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/tiny_7_wheat_patch",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 6,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/tiny_10_wheat_patch",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 8,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/small_7_wheat_patch",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 4,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/small_13_wheat_patch",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/small_20_wheat_patch",
-        "processors": "minecraft:empty"
+        "location": "wabi_sabi_structures:wheat_patch/tiny_wheat_patch_variant_2",
+        "processors": "wabi_sabi_structures:wheat_patch_tiny"
       }
     },
     {
@@ -70,8 +25,44 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/medium_13_wheat_patch",
-        "processors": "minecraft:empty"
+        "location": "wabi_sabi_structures:wheat_patch/small_wheat_patch_variant_1",
+        "processors": "wabi_sabi_structures:wheat_patch_small"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:wheat_patch/small_wheat_patch_variant_2",
+        "processors": "wabi_sabi_structures:wheat_patch_small"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:wheat_patch/small_wheat_patch_variant_3",
+        "processors": "wabi_sabi_structures:wheat_patch_small"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:wheat_patch/medium_wheat_patch_variant_1",
+        "processors": "wabi_sabi_structures:wheat_patch_medium"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:wheat_patch/medium_wheat_patch_variant_2",
+        "processors": "wabi_sabi_structures:wheat_patch_medium"
       }
     },
     {
@@ -79,17 +70,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/medium_26_wheat_patch",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
-        "location": "wabi_sabi_structures:wheat_patch/huge_83_wheat_patch",
-        "processors": "minecraft:empty"
+        "location": "wabi_sabi_structures:wheat_patch/wheat_field",
+        "processors": "wabi_sabi_structures:wheat_field"
       }
     }
   ]

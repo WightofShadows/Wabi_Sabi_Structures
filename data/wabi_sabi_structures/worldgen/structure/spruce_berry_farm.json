@@ -1,12 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-      "minecraft:snowy_taiga",
-      "minecraft:taiga",
-      "minecraft:snowy_plains",
-      "minecraft:snowy_slopes",
-      "minecraft:grove"
-    ],
+    "biomes": "#wabi_sabi_structures:has_structure/spruce_berry_farm",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",

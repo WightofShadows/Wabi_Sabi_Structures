@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:forest",
+	{
+		"id": "terrestria:hemlock_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:blooming_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:temperate_highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:yosemite_lowlands",
+		"required": false
+	}
+  ]
+}

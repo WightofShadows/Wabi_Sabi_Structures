@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:snowy_plains",
+    "biomes": "#wabi_sabi_structures:has_structure/frost_reactor_plant",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaption": "beard_box",

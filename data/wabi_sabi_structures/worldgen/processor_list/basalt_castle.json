@@ -1,0 +1,539 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wither_skeleton_skull",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:anvil",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:smithing_table"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:anvil",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:stonecutter",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:anvil",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:grindstone",
+            "Properties": {
+              "facing": "west",
+			  "face": "floor"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:anvil",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:anvil",
+            "probability": 0.55
+          },
+          "output_state": {
+            "Name": "minecraft:chipped_anvil",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sponge",
+            "probability": 0.02
+          },
+          "output_state": {
+            "Name": "minecraft:magma_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sponge",
+            "probability": 0.03
+          },
+          "output_state": {
+            "Name": "minecraft:basalt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sponge",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:lava"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:magma_block",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:basalt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cyan_banner",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:smooth_basalt",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:basalt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:polished_basalt",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:basalt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:smooth_basalt",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:basalt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:soul_lantern",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:soul_torch",
+            "probability": 0.30
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:soul_campfire",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:raw_gold_block",
+            "probability": 0.10
+          },
+          "output_state": {
+            "Name": "minecraft:nether_gold_ore"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:raw_gold_block",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:gold_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_candle",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_candle",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:red_candle",
+            "Properties": {
+              "candles": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_candle",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:red_candle",
+            "Properties": {
+              "candles": "3"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_candle",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:red_candle",
+            "Properties": {
+              "candles": "4"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:lodestone",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:composter"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:furnace",
+              "Properties": {
+                "facing": "east",
+                "lit": "false"
+              }
+            },
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:furnace",
+            "Properties": {
+              "facing": "east",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:cooked_porkchop","Count":2}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:furnace",
+              "Properties": {
+                "facing": "east",
+                "lit": "false"
+              }
+            },
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:furnace",
+            "Properties": {
+              "facing": "east",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:cooked_porkchop","Count":1}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:furnace",
+              "Properties": {
+                "facing": "east",
+                "lit": "false"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:furnace",
+            "Properties": {
+              "facing": "east",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:coal","Count":1}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:furnace",
+              "Properties": {
+                "facing": "east",
+                "lit": "false"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:furnace",
+            "Properties": {
+              "facing": "east",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:coal","Count":2}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:furnace",
+              "Properties": {
+                "facing": "east",
+                "lit": "false"
+              }
+            },
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:furnace",
+            "Properties": {
+              "facing": "east",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:coal","Count":3}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:furnace",
+              "Properties": {
+                "facing": "east",
+                "lit": "false"
+              }
+            },
+            "probability": 0.10
+          },
+          "output_state": {
+            "Name": "minecraft:furnace",
+            "Properties": {
+              "facing": "east",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:blaze_rod","Count":1}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:nether_sprouts",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:nether_sprouts",
+            "probability": 0.10
+          },
+          "output_state": {
+            "Name": "minecraft:warped_fungus"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:nether_sprouts",
+            "probability": 0.45
+          },
+          "output_state": {
+            "Name": "minecraft:warped_roots"
+          }
+        }
+      ]
+    }
+  ]
+}

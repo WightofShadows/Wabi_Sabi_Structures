@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:stony_peaks",
+    "biomes": "#wabi_sabi_structures:has_structure/lumpy_tower",
     "adapt_noise": true,
 	"spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:lumpy_tower",

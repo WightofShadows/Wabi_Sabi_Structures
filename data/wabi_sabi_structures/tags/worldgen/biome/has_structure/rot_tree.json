@@ -1,0 +1,55 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:forest",
+	"minecraft:dark_forest",
+	"minecraft:swamp",
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+	"minecraft:old_growth_spruce_taiga",
+	{
+		"id": "traverse:coniferous_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:hemlock_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:lush_redwood_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:ashen_savanna",
+		"required": false
+	},
+	{
+		"id": "terralith:blooming_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:moonlight_grove",
+		"required": false
+	},
+	{
+		"id": "terralith:moonlight_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:orchid_swamp",
+		"required": false
+	},
+	{
+		"id": "terralith:forested_highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:yellowstone",
+		"required": false
+	},
+	{
+		"id": "terralith:yosemite_lowlands",
+		"required": false
+	}
+  ]
+}

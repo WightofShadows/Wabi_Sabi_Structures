@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:forest",
+    "biomes": "#wabi_sabi_structures:has_structure/mossy_roof_house",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",

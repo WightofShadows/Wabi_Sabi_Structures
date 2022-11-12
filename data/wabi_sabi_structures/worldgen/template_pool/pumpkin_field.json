@@ -1,0 +1,24 @@
+{
+  "name": "wabi_sabi_structures:pumpkin_field",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:pumpkin_field/huge_28_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:pumpkin_field/the_great_pumpkin",
+        "processors": "wabi_sabi_structures:the_great_pumpkin"
+      }
+    }
+  ]
+}

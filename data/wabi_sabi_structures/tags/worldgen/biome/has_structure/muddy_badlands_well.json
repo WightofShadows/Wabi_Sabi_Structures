@@ -2,6 +2,50 @@
   "replace": false,
   "values": [
     "minecraft:badlands",
-    "minecraft:wooded_badlands"
+    "minecraft:wooded_badlands",
+	{
+		"id": "traverse:desert_shrubland",
+		"required": false
+	},
+	{
+		"id": "terrestria:lush_desert",
+		"required": false
+	},
+	{
+		"id": "terrestria:outback",
+		"required": false
+	},
+	{
+		"id": "terralith:ancient_sands",
+		"required": false
+	},
+	{
+		"id": "terralith:bryce_canyon",
+		"required": false
+	},
+	{
+		"id": "terralith:lush_desert",
+		"required": false
+	},
+	{
+		"id": "terralith:white_mesa",
+		"required": false
+	},
+	{
+		"id": "terralith:painted_mountains",
+		"required": false
+	},
+	{
+		"id": "terralith:hot_shrubland",
+		"required": false
+	},
+	{
+		"id": "terralith:fractured_savanna",
+		"required": false
+	},
+	{
+		"id": "terralith:shrubland",
+		"required": false
+	}
   ]
 }

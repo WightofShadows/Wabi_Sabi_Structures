@@ -1,0 +1,105 @@
+{
+  "name": "wabi_sabi_structures:pumpkin_patch",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/medium_16_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/medium_11_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/medium_9_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/small_13_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/small_11_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/small_9_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/small_6_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/tiny_5_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/tiny_4_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/tiny_3_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:pumpkin_patch/tiny_2_pumpkin_patch",
+        "processors": "wabi_sabi_structures:pumpkin_patch"
+      }
+    }
+  ]
+}

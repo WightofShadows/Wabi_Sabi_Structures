@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:savanna_plateau",
+	{
+		"id": "terrestria:oasis",
+		"required": false
+	},
+	{
+		"id": "terralith:arid_highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:desert_oasis",
+		"required": false
+	},
+	{
+		"id": "terralith:savanna_slopes",
+		"required": false
+	}
+  ]
+}

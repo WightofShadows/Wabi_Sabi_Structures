@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:mangrove_swamp",
+    "biomes": "#wabi_sabi_structures:has_structure/tree_cage",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaption": "beard_box",

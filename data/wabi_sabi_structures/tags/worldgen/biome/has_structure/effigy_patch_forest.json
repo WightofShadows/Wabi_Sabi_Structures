@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+	{
+		"id": "traverse:autumnal_woods",
+		"required": false
+	},
+	{
+		"id": "traverse:woodlands",
+		"required": false
+	},
+	{
+		"id": "terrestria:dense_woodlands",
+		"required": false
+	},
+	{
+		"id": "terrestria:japanese_maple_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:haze_mountain",
+		"required": false
+	},
+	{
+		"id": "terralith:skylands_autumn",
+		"required": false
+	},
+	{
+		"id": "terralith:shrubland",
+		"required": false
+	},
+	{
+		"id": "terralith:snowy_maple_forest",
+		"required": false
+	}
+  ]
+}

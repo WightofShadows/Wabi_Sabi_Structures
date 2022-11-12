@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mangrove_swamp",
+	{
+		"id": "terrestria:cypress_swamp",
+		"required": false
+	}
+  ]
+}

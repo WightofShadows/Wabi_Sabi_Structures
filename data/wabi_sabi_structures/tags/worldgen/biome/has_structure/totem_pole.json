@@ -2,6 +2,78 @@
   "replace": false,
   "values": [
     "minecraft:old_growth_pine_taiga",
-    "minecraft:old_growth_spruce_taiga"
+    "minecraft:old_growth_spruce_taiga",
+	{
+		"id": "traverse:coniferous_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:caldera",
+		"required": false
+	},
+	{
+		"id": "terrestria:hemlock_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:lush_redwood_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:redwood_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:windswept_redwood_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:alpine_highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:bryce_canyon",
+		"required": false
+	},
+	{
+		"id": "terralith:emerald_peaks",
+		"required": false
+	},
+	{
+		"id": "terralith:shield_clearing",
+		"required": false
+	},
+	{
+		"id": "terralith:white_mesa",
+		"required": false
+	},
+	{
+		"id": "terralith:cloud_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:forested_highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:lush_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:shield",
+		"required": false
+	},
+	{
+		"id": "terralith:snowy_shield",
+		"required": false
+	},
+	{
+		"id": "terralith:wintry_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:wintry_lowlands",
+		"required": false
+	}
   ]
 }

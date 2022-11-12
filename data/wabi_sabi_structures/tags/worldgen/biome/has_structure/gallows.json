@@ -1,0 +1,42 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wooded_badlands",
+	{
+		"id": "terrestria:canyon",
+		"required": false
+	},
+	{
+		"id": "terrestria:snowy_hemlock_treeline",
+		"required": false
+	},
+	{
+		"id": "terralith:ancient_sands",
+		"required": false
+	},
+	{
+		"id": "terralith:ashen_savanna",
+		"required": false
+	},
+	{
+		"id": "terralith:lush_desert",
+		"required": false
+	},
+	{
+		"id": "terralith:sandstone_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:snowy_badlands",
+		"required": false
+	},
+	{
+		"id": "terralith:rocky_shrubland",
+		"required": false
+	},
+	{
+		"id": "terralith:fractured_savanna",
+		"required": false
+	}
+  ]
+}

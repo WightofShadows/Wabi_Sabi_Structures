@@ -63,6 +63,20 @@
           }
 		},
         {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:coarse_dirt",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:red_sand",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:red_sand"
+          }
+		},
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },

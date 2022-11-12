@@ -2,6 +2,30 @@
   "replace": false,
   "values": [
     "minecraft:savanna",
-    "minecraft:plains"
+    "minecraft:plains",
+	{
+		"id": "traverse:desert_shrubland",
+		"required": false
+	},
+	{
+		"id": "traverse:woodlands",
+		"required": false
+	},
+	{
+		"id": "terrestria:outback",
+		"required": false
+	},
+	{
+		"id": "terralith:arid_highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:brushland",
+		"required": false
+	},
+	{
+		"id": "terralith:white_mesa",
+		"required": false
+	}
   ]
 }

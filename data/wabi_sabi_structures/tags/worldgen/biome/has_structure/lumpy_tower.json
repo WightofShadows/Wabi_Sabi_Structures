@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stony_peaks",
+	{
+		"id": "terralith:amethyst_canyon",
+		"required": false
+	},
+	{
+		"id": "terralith:white_cliffs",
+		"required": false
+	},
+	{
+		"id": "terralith:jungle_mountains",
+		"required": false
+	},
+	{
+		"id": "terralith:yellowstone",
+		"required": false
+	}
+  ]
+}

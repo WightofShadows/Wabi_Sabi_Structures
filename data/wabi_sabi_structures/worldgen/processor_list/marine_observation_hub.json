@@ -1016,7 +1016,21 @@
               "candles": "4"
             }
           }
-        }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:air",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:water",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          }
+		}
       ]
     }
   ]

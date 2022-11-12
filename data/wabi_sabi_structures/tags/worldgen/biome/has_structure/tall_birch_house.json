@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:old_growth_birch_forest",
+	{
+		"id": "terrestria:cypress_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:birch_taiga",
+		"required": false
+	},
+	{
+		"id": "terralith:white_cliffs",
+		"required": false
+	},
+	{
+		"id": "terralith:temperate_highlands",
+		"required": false
+	}
+  ]
+}

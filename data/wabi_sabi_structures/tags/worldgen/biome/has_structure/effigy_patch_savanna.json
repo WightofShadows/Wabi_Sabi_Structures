@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:windswept_savanna",
+	{
+		"id": "terralith:lush_desert",
+		"required": false
+	},
+	{
+		"id": "terralith:stony_spires",
+		"required": false
+	},
+	{
+		"id": "terralith:hot_shrubland",
+		"required": false
+	},
+	{
+		"id": "terralith:fractured_savanna",
+		"required": false
+	}
+  ]
+}

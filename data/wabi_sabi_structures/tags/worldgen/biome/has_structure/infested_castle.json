@@ -3,6 +3,30 @@
   "values": [
     "minecraft:windswept_forest",
     "minecraft:windswept_hills",
-    "minecraft:windswept_gravelly_hills"
+    "minecraft:windswept_gravelly_hills",
+	{
+		"id": "terralith:ashen_savanna",
+		"required": false
+	},
+	{
+		"id": "terralith:gravel_beach",
+		"required": false
+	},
+	{
+		"id": "terralith:gravel_desert",
+		"required": false
+	},
+	{
+		"id": "terralith:jungle_mountains",
+		"required": false
+	},
+	{
+		"id": "terralith:highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:shield",
+		"required": false
+	}
   ]
 }

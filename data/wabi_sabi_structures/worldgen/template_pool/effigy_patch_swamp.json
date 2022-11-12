@@ -1,0 +1,42 @@
+{
+    "name": "wabi_sabi_structures:effigy_patch_swamp",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:effigy_patch_swamp/effigy_patch_swamp_sentinel",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:effigy_patch_swamp"
+            }
+        },
+		{
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:effigy_patch_swamp/effigy_patch_swamp_hunter",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:effigy_patch_swamp"
+            }
+        },
+		{
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:effigy_patch_swamp/effigy_patch_swamp_naturalist",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:effigy_patch_swamp"
+            }
+        },
+		{
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:effigy_patch_swamp/effigy_patch_swamp_soothsayer",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:effigy_patch_swamp"
+            }
+        }
+    ]
+}

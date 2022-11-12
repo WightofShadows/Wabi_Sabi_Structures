@@ -11,32 +11,98 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:orange_wool"
+          "name": "minecraft:orange_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:yellow_wool"
+          "name": "minecraft:yellow_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:blue_wool"
+          "name": "minecraft:blue_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:red_wool"
+          "name": "minecraft:red_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:lime_wool"
+          "name": "minecraft:lime_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:magenta_wool"
+          "name": "minecraft:magenta_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
         }
       ]
     },

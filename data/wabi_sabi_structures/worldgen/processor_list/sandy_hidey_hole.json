@@ -154,7 +154,35 @@
               "candles": "4"
             }
           }
-        }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sand",
+            "probability": 0.85
+          },
+          "location_predicate": {
+            "block": "minecraft:red_sand",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:red_sand"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sandstone",
+            "probability": 0.85
+          },
+          "location_predicate": {
+            "block": "minecraft:red_sandstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone"
+          }
+		}
       ]
     }
   ]

@@ -3,6 +3,38 @@
   "values": [
     "minecraft:jungle",
     "minecraft:sparse_jungle",
-    "minecraft:bamboo_jungle"
+    "minecraft:bamboo_jungle",
+	{
+		"id": "terrestria:rainbow_rainforest",
+		"required": false
+	},
+	{
+		"id": "terrestria:volcanic_island",
+		"required": false
+	},
+	{
+		"id": "terralith:amethyst_rainforest",
+		"required": false
+	},
+	{
+		"id": "terralith:lavender_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:mirage_isles",
+		"required": false
+	},
+	{
+		"id": "terralith:rocky_jungle",
+		"required": false
+	},
+	{
+		"id": "terralith:tropical_jungle",
+		"required": false
+	},
+	{
+		"id": "terralith:skylands_summer",
+		"required": false
+	}
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stony_peaks",
+	{
+		"id": "terralith:amethyst_canyon",
+		"required": false
+	},
+	{
+		"id": "terralith:birch_taiga",
+		"required": false
+	},
+	{
+		"id": "terralith:jungle_mountains",
+		"required": false
+	},
+	{
+		"id": "terralith:rocky_jungle",
+		"required": false
+	},
+	{
+		"id": "terralith:skylands_summer",
+		"required": false
+	}
+  ]
+}

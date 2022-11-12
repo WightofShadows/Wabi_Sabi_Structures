@@ -1,0 +1,33 @@
+{
+  "name": "wabi_sabi_structures:rot_tree",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:rot_tree/rot_tree_1",
+        "processors": "wabi_sabi_structures:rot_tree"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:rot_tree/rot_tree_2",
+        "processors": "wabi_sabi_structures:rot_tree"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:rot_tree/rot_tree_3",
+        "processors": "wabi_sabi_structures:rot_tree"
+      }
+    }
+  ]
+}

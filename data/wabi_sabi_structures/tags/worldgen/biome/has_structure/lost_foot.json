@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beach",
+	{
+		"id": "terrestria:volcanic_island",
+		"required": false
+	},
+	{
+		"id": "terralith:gravel_beach",
+		"required": false
+	},
+	{
+		"id": "terralith:desert_oasis",
+		"required": false
+	},
+	{
+		"id": "terralith:tropical_jungle",
+		"required": false
+	},
+	{
+		"id": "terralith:volcanic_crater",
+		"required": false
+	},
+	{
+		"id": "terralith:steppe",
+		"required": false
+	}
+  ]
+}

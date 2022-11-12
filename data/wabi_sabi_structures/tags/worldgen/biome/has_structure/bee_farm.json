@@ -1,0 +1,42 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:flower_forest",
+	{
+		"id": "traverse:flatlands",
+		"required": false
+	},
+	{
+		"id": "terrestria:japanese_maple_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:sakura_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:blooming_plateau",
+		"required": false
+	},
+	{
+		"id": "terralith:blooming_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:lavender_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:sakura_grove",
+		"required": false
+	},
+	{
+		"id": "terralith:skylands_spring",
+		"required": false
+	},
+	{
+		"id": "terralith:cloud_forest",
+		"required": false
+	}
+  ]
+}

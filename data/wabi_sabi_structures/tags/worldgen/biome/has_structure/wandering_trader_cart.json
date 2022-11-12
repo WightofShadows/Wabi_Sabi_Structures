@@ -6,6 +6,90 @@
     "minecraft:mangrove_swamp",
     "minecraft:mushroom_fields",
     "minecraft:old_growth_spruce_taiga",
-    "minecraft:old_growth_pine_taiga"
+    "minecraft:old_growth_pine_taiga",
+	{
+		"id": "terrestria:oasis",
+		"required": false
+	},
+	{
+		"id": "terrestria:rainbow_rainforest",
+		"required": false
+	},
+	{
+		"id": "terrestria:sakura_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:japanese_maple_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:outback",
+		"required": false
+	},
+	{
+		"id": "traverse:autumnal_woods",
+		"required": false
+	},
+	{
+		"id": "traverse:lush_swamp",
+		"required": false
+	},
+	{
+		"id": "terralith:amethyst_canyon",
+		"required": false
+	},
+	{
+		"id": "terralith:amethyst_rainforest",
+		"required": false
+	},
+	{
+		"id": "terralith:blooming_plateau",
+		"required": false
+	},
+	{
+		"id": "terralith:blooming_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:desert_oasis",
+		"required": false
+	},
+	{
+		"id": "terralith:red_oasis",
+		"required": false
+	},
+	{
+		"id": "terralith:mirage_isles",
+		"required": false
+	},
+	{
+		"id": "terralith:moonlight_grove",
+		"required": false
+	},
+	{
+		"id": "terralith:sakura_valley",
+		"required": false
+	},
+	{
+		"id": "terralith:rocky_jungle",
+		"required": false
+	},
+	{
+		"id": "terralith:warped_mesa",
+		"required": false
+	},
+	{
+		"id": "terralith:painted_mountains",
+		"required": false
+	},
+	{
+		"id": "terralith:orchid_swamp",
+		"required": false
+	},
+	{
+		"id": "terralith:temperate_highlands",
+		"required": false
+	}
   ]
 }

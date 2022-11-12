@@ -2,6 +2,26 @@
   "replace": false,
   "values": [
     "minecraft:plains",
-    "minecraft:savanna"
+    "minecraft:savanna",
+	{
+		"id": "traverse:desert_shrubland",
+		"required": false
+	},
+	{
+		"id": "terrestria:dense_woodlands",
+		"required": false
+	},
+	{
+		"id": "terralith:skylands_summer",
+		"required": false
+	},
+	{
+		"id": "terralith:steppe",
+		"required": false
+	},
+	{
+		"id": "terralith:siberian_taiga",
+		"required": false
+	}
   ]
 }

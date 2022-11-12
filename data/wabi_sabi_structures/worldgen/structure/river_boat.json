@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:river",
+    "biomes": "#wabi_sabi_structures:has_structure/river_boat",
     "adapt_noise": false,
 	"spawn_overrides": {},
 	"terrain_adaptation": "none",

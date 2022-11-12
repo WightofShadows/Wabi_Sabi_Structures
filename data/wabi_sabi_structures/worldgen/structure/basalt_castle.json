@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "minecraft:basalt_deltas",
+    "adapt_noise": true,
+	"spawn_overrides": {},
+	"terrain_adaptation": "beard_thin",
+    "start_pool": "wabi_sabi_structures:basalt_castle",
+    "size": 7,
+    "step": "underground_decoration",
+	"start_height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": 33
+      },
+      "max_inclusive": {
+        "absolute": 75
+      }
+    },
+    "max_distance_from_center": 50,
+    "use_expansion_hack": false
+}

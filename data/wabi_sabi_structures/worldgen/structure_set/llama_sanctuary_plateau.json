@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "wabi_sabi_structures:llama_sanctuary_plateau",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "spacing": 25,
+        "separation": 12,
+        "salt": 27141095
+    }
+}

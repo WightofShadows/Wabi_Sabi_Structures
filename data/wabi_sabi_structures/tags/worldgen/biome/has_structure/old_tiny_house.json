@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:taiga",
+	{
+		"id": "traverse:coniferous_forest",
+		"required": false
+	},
+	{
+		"id": "traverse:snowy_coniferous_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:snowy_hemlock_forest",
+		"required": false
+	},
+	{
+		"id": "terralith:alpine_highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:bryce_canyon",
+		"required": false
+	},
+	{
+		"id": "terralith:skylands_winter",
+		"required": false
+	},
+	{
+		"id": "terralith:highlands",
+		"required": false
+	},
+	{
+		"id": "terralith:siberian_taiga",
+		"required": false
+	}
+  ]
+}

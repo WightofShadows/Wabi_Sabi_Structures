@@ -2,6 +2,42 @@
   "replace": false,
   "values": [
     "minecraft:swamp",
-    "minecraft:mangrove_swamp"
+    "minecraft:mangrove_swamp",
+	{
+		"id": "traverse:lush_swamp",
+		"required": false
+	},
+	{
+		"id": "terrestria:cypress_swamp",
+		"required": false
+	},
+	{
+		"id": "terrestria:japanese_maple_forest",
+		"required": false
+	},
+	{
+		"id": "terrestria:rainbow_rainforest",
+		"required": false
+	},
+	{
+		"id": "terralith:amethyst_rainforest",
+		"required": false
+	},
+	{
+		"id": "terralith:desert_oasis",
+		"required": false
+	},
+	{
+		"id": "terralith:red_oasis",
+		"required": false
+	},
+	{
+		"id": "terralith:skylands_spring",
+		"required": false
+	},
+	{
+		"id": "terralith:orchid_swamp",
+		"required": false
+	}
   ]
 }

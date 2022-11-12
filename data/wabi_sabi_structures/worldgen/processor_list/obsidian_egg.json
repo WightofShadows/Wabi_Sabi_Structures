@@ -36,7 +36,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:sponge",
-            "probability": 0.002
+            "probability": 0.004
           },
           "output_state": {
             "Name": "minecraft:ancient_debris"

@@ -27,9 +27,9 @@ Including these important details makes it easier for us to pinpoint the cause o
 
 # Features
 
-Currently, Wabi-Sabi structures contains 40+ new structures, including:
-  - 35 new structures in the Overworld
-  - 5 new structures in the Nether
+Currently, Wabi-Sabi structures contains 58 new structures, including:
+  - 51 new structures in the Overworld
+  - 6 new structures in the Nether
   - 1 new structure in the End
   - Variants, loot, and block randomization for many structures to increase variability in generation
 

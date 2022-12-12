@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:basalt_deltas",
+    "biomes": "#wabi_sabi_structures:has_structure/basalt_castle",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",

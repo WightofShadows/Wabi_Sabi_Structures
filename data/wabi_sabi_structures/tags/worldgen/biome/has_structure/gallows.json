@@ -37,6 +37,10 @@
 	{
 		"id": "terralith:fractured_savanna",
 		"required": false
+	},
+	{
+		"id": "graveyard_biomes:haunted_forest",
+		"required": false
 	}
   ]
 }

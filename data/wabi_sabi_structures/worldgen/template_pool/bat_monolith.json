@@ -1,0 +1,33 @@
+{
+  "name": "wabi_sabi_structures:bat_monolith",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:bat_monolith/bat_monolith_small",
+        "processors": "wabi_sabi_structures:bat_monolith"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:bat_monolith/bat_monolith_big",
+        "processors": "wabi_sabi_structures:bat_monolith"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:bat_monolith/bat_monolith_tall",
+        "processors": "wabi_sabi_structures:bat_monolith"
+      }
+    }
+  ]
+}

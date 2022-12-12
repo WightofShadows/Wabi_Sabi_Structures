@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:has_structure/mineshaft",
+	{
+		"id": "terralith:cave/infested_caves",
+		"required": false
+	},
+	{
+		"id": "terralith:cave/granite_caves",
+		"required": false
+	}
+  ]
+}

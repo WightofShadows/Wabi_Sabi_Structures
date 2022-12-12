@@ -23,15 +23,15 @@
 		"required": false
 	},
 	{
-		"id": "terralith:skylands_winter",
-		"required": false
-	},
-	{
 		"id": "terralith:highlands",
 		"required": false
 	},
 	{
 		"id": "terralith:siberian_taiga",
+		"required": false
+	},
+	{
+		"id": "graveyard_biomes:haunted_forest",
 		"required": false
 	}
   ]

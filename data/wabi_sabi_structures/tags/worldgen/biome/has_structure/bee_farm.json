@@ -31,10 +31,6 @@
 		"required": false
 	},
 	{
-		"id": "terralith:skylands_spring",
-		"required": false
-	},
-	{
 		"id": "terralith:cloud_forest",
 		"required": false
 	}

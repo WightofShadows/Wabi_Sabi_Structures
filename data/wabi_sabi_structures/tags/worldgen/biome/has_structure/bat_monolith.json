@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:has_structure/mineshaft",
+	{
+		"id": "terralith:cave/andesite_caves",
+		"required": false
+	},
+	{
+		"id": "terralith:cave/deep_caves",
+		"required": false
+	},
+	{
+		"id": "terralith:cave/tuff_caves",
+		"required": false
+	}
+  ]
+}

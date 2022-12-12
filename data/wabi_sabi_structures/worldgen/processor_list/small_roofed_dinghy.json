@@ -30,6 +30,19 @@
           }
 		},
         {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:lantern",
+            "probability": 0.50
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+		},
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },

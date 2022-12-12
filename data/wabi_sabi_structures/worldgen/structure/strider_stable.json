@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:nether_wastes",
+    "biomes": "#wabi_sabi_structures:has_structure/strider_stable",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",

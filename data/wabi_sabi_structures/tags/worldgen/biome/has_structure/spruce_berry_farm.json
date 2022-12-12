@@ -31,10 +31,6 @@
 		"required": false
 	},
 	{
-		"id": "terralith:skylands_winter",
-		"required": false
-	},
-	{
 		"id": "terralith:rocky_shrubland",
 		"required": false
 	},

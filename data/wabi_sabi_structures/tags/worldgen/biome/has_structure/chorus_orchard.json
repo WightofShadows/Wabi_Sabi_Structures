@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:end_highlands",
+	{
+		"id": "nullscape:crystal_peaks",
+		"required": false
+	}
+  ]
+}

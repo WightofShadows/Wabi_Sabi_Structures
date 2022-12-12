@@ -25,10 +25,6 @@
 	{
 		"id": "terralith:tropical_jungle",
 		"required": false
-	},
-	{
-		"id": "terralith:skylands_summer",
-		"required": false
 	}
   ]
 }

@@ -12,8 +12,7 @@
             "block_state": {
               "Name": "minecraft:furnace",
               "Properties": {
-                "facing": "west",
-                "lit": "false"
+                "facing": "west"
               }
             },
             "probability": 0.05
@@ -21,8 +20,7 @@
           "output_state": {
             "Name": "minecraft:furnace",
             "Properties": {
-              "facing": "west",
-              "lit": "false"
+              "facing": "west"
             }
           },
           "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:cooked_salmon","Count":2}]}
@@ -36,8 +34,7 @@
             "block_state": {
               "Name": "minecraft:furnace",
               "Properties": {
-                "facing": "west",
-                "lit": "false"
+                "facing": "west"
               }
             },
             "probability": 0.05
@@ -45,8 +42,7 @@
           "output_state": {
             "Name": "minecraft:furnace",
             "Properties": {
-              "facing": "west",
-              "lit": "false"
+              "facing": "west"
             }
           },
           "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:cooked_chicken","Count":1}]}
@@ -60,8 +56,7 @@
             "block_state": {
               "Name": "minecraft:furnace",
               "Properties": {
-                "facing": "west",
-                "lit": "false"
+                "facing": "west"
               }
             },
             "probability": 0.10
@@ -69,8 +64,7 @@
           "output_state": {
             "Name": "minecraft:furnace",
             "Properties": {
-              "facing": "west",
-              "lit": "false"
+              "facing": "west"
             }
           },
           "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
@@ -84,8 +78,7 @@
             "block_state": {
               "Name": "minecraft:furnace",
               "Properties": {
-                "facing": "west",
-                "lit": "false"
+                "facing": "west"
               }
             },
             "probability": 0.25
@@ -93,8 +86,7 @@
           "output_state": {
             "Name": "minecraft:furnace",
             "Properties": {
-              "facing": "west",
-              "lit": "false"
+              "facing": "west"
             }
           },
           "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
@@ -108,8 +100,7 @@
             "block_state": {
               "Name": "minecraft:furnace",
               "Properties": {
-                "facing": "west",
-                "lit": "false"
+                "facing": "west"
               }
             },
             "probability": 0.50
@@ -117,8 +108,7 @@
           "output_state": {
             "Name": "minecraft:furnace",
             "Properties": {
-              "facing": "west",
-              "lit": "false"
+              "facing": "west"
             }
           },
           "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
@@ -132,8 +122,7 @@
             "block_state": {
               "Name": "minecraft:furnace",
               "Properties": {
-                "facing": "west",
-                "lit": "false"
+                "facing": "west"
               }
             },
             "probability": 0.15
@@ -141,8 +130,7 @@
           "output_state": {
             "Name": "minecraft:furnace",
             "Properties": {
-              "facing": "west",
-              "lit": "false"
+              "facing": "west"
             }
           },
           "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
@@ -156,8 +144,7 @@
             "block_state": {
               "Name": "minecraft:furnace",
               "Properties": {
-                "facing": "west",
-                "lit": "false"
+                "facing": "west"
               }
             },
             "probability": 0.05
@@ -165,8 +152,7 @@
           "output_state": {
             "Name": "minecraft:furnace",
             "Properties": {
-              "facing": "west",
-              "lit": "false"
+              "facing": "west"
             }
           },
           "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":5}]}

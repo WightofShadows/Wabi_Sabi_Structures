@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:basalt_deltas",
+	{
+		"id": "incendium:ash_barrens",
+		"required": false
+	},
+	{
+		"id": "incendium:infernal_dunes",
+		"required": false
+	}
+  ]
+}

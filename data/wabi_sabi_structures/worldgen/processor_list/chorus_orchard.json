@@ -169,6 +169,32 @@
             }
           },
           "output_nbt": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":1}]}
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:blackstone"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:end_stone"
+          },
+          "output_state": {
+            "Name": "minecraft:blackstone"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:smooth_basalt"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:end_stone"
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_basalt"
+          }
         }
       ]
     }

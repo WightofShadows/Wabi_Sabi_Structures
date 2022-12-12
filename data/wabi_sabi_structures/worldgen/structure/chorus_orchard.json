@@ -1,9 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-      "minecraft:end_midlands",
-      "minecraft:end_highlands"
-    ],
+    "biomes": "#wabi_sabi_structures:has_structure/chorus_orchard",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",

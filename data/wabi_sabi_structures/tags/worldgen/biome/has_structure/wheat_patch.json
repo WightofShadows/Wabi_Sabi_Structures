@@ -12,10 +12,6 @@
 		"required": false
 	},
 	{
-		"id": "terralith:skylands_summer",
-		"required": false
-	},
-	{
 		"id": "terralith:steppe",
 		"required": false
 	},

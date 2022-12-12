@@ -28,6 +28,15 @@
         "location": "wabi_sabi_structures:totem_pole/totem_pole_3",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:totem_pole/totem_pole_4",
+        "processors": "wabi_sabi_structures:totem_pole"
+      }
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+	{
+		"id": "terrestria:dunes",
+		"required": false
+	},
+	{
+		"id": "terrestria:lush_desert",
+		"required": false
+	},
+	{
+		"id": "terralith:ancient_sands",
+		"required": false
+	}
+  ]
+}

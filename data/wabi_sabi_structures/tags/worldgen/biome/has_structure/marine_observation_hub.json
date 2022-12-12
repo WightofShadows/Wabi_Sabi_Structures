@@ -5,6 +5,10 @@
 	{
 		"id": "terralith:gravel_desert",
 		"required": false
+	},
+	{
+		"id": "graveyard_biomes:ancient_dead_coral_reef",
+		"required": false
 	}
   ]
 }

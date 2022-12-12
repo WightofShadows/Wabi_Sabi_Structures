@@ -21,6 +21,10 @@
 	{
 		"id": "terralith:yosemite_lowlands",
 		"required": false
+	},
+	{
+		"id": "graveyard_biomes:haunted_lakes",
+		"required": false
 	}
   ]
 }

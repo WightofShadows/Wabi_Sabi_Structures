@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:dark_forest",
+	{
+		"id": "graveyard_biomes:deep_dark_forest",
+		"required": false
+	}
+  ]
+}

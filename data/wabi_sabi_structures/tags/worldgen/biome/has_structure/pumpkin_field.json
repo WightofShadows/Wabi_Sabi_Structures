@@ -22,6 +22,10 @@
 	{
 		"id": "terralith:shrubland",
 		"required": false
+	},
+	{
+		"id": "graveyard_biomes:deep_dark_forest",
+		"required": false
 	}
   ]
 }

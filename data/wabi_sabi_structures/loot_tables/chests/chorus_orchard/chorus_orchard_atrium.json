@@ -533,8 +533,24 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:spire_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "add": false
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "wabi_sabi_structures:chests/chorus_orchard/chorus_orchard_atrium"
 }

@@ -315,6 +315,30 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sentry_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "random_sequence": "wabi_sabi_structures:chests/infested_castle/infested_castle_treasure"
 }

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:flower_forest",
+    {
+        "id": "traverse:flatlands",
+        "required": false
+    },
+    {
+        "id": "terralith:blooming_valley",
+        "required": false
+    },
+    {
+        "id": "terralith:lavender_forest",
+        "required": false
+    },
+    {
+        "id": "terralith:cloud_forest",
+        "required": false
+    }
+  ]
+}

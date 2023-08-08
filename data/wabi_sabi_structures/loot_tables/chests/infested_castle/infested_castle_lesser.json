@@ -18,7 +18,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 6
+                "max": 4
               },
               "add": false
             }
@@ -34,7 +34,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 4
+                "max": 3
               },
               "add": false
             }
@@ -50,7 +50,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 6
+                "max": 4
               },
               "add": false
             }
@@ -66,7 +66,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 4
+                "max": 3
               },
               "add": false
             }
@@ -82,7 +82,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
+                "max": 2
               },
               "add": false
             }
@@ -98,7 +98,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
+                "max": 2
               },
               "add": false
             }
@@ -347,6 +347,10 @@
           "name": "minecraft:iron_helmet",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:sentry\"}}"
+            },
+            {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -361,6 +365,10 @@
           "weight": 1,
           "name": "minecraft:iron_chestplate",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:sentry\"}}"
+            },
             {
               "function": "minecraft:set_damage",
               "damage": {
@@ -377,6 +385,10 @@
           "name": "minecraft:iron_leggings",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:sentry\"}}"
+            },
+            {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -392,6 +404,10 @@
           "name": "minecraft:iron_boots",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:sentry\"}}"
+            },
+            {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -403,5 +419,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "wabi_sabi_structures:chests/infested_castle/infested_castle_lesser"
 }

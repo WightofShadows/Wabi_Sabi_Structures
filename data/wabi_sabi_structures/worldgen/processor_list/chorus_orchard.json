@@ -28,7 +28,7 @@
                 "facing": "south"
               }
             },
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:furnace",
@@ -36,7 +36,10 @@
               "facing": "south"
             }
           },
-          "output_nbt": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":9}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":9}]}
+          }
         },
         {
           "location_predicate": {
@@ -58,7 +61,10 @@
               "facing": "south"
             }
           },
-          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:popped_chorus_fruit","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":2,"id":"minecraft:popped_chorus_fruit","Count":4}]}
+          }
         },
         {
           "location_predicate": {
@@ -72,7 +78,7 @@
                 "facing": "south"
               }
             },
-            "probability": 0.20
+            "probability": 0.2
           },
           "output_state": {
             "Name": "minecraft:furnace",
@@ -80,7 +86,10 @@
               "facing": "south"
             }
           },
-          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:popped_chorus_fruit","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":2,"id":"minecraft:popped_chorus_fruit","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -102,7 +111,10 @@
               "facing": "south"
             }
           },
-          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:popped_chorus_fruit","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":2,"id":"minecraft:popped_chorus_fruit","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -116,7 +128,7 @@
                 "facing": "south"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:furnace",
@@ -124,7 +136,10 @@
               "facing": "south"
             }
           },
-          "output_nbt": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":7}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":7}]}
+          }
         },
         {
           "location_predicate": {
@@ -146,7 +161,10 @@
               "facing": "south"
             }
           },
-          "output_nbt": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":4}]}
+          }
         },
         {
           "location_predicate": {
@@ -160,7 +178,7 @@
                 "facing": "south"
               }
             },
-            "probability": 1.0
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:furnace",
@@ -168,9 +186,12 @@
               "facing": "south"
             }
           },
-          "output_nbt": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":0,"id":"minecraft:chorus_fruit","Count":1}]}
+          }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:block_match",
             "block": "minecraft:blackstone"

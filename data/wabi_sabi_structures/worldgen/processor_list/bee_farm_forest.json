@@ -23,7 +23,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wet_sponge",
-            "probability": 1.0
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:water"
@@ -62,7 +62,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:torch",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -75,7 +75,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -203,7 +203,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Bees":[{"EntityData":{"id":"minecraft:bee"}}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Bees":[{"EntityData":{"id":"minecraft:bee"}}]}
+          }
         },
         {
           "location_predicate": {
@@ -212,7 +215,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:red_tulip",
-            "probability": 0.20
+            "probability": 0.2
           },
           "output_state": {
             "Name": "minecraft:dandelion"
@@ -225,7 +228,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:red_tulip",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:poppy"

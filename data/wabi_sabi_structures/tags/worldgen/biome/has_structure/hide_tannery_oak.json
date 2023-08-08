@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "minecraft:flower_forest",
-    "minecraft:meadow",
     "minecraft:savanna",
     {
 	    "id": "terralith:arid_highlands",

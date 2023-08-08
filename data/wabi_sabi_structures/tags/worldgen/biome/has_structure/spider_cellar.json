@@ -23,11 +23,11 @@
 		"required": false
 	},
 	{
-		"id": "graveyard_biomes:haunted_forest",
+		"id": "nyctophobia:haunted_forest",
 		"required": false
 	},
 	{
-		"id": "graveyard_biomes:eroded_haunted_forest",
+		"id": "nyctophobia:eroded_haunted_forest",
 		"required": false
 	}
   ]

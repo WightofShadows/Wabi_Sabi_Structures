@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "wabi_sabi_structures:bee_farm",
+            "structure": "wabi_sabi_structures:bamboo_firework_site",
             "weight": 1
         }
     ],
     "placement": {
         "type": "random_spread",
         "spacing": 40,
-        "separation": 15,
-        "salt": 52676275
+        "separation": 30,
+        "salt": 72434277
     }
 }

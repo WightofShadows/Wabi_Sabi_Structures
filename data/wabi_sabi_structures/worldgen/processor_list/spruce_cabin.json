@@ -4,135 +4,135 @@
       "processor_type": "minecraft:rule",
       "rules": [
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass",
             "probability": 0.75
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:fern"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:lantern",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:sweet_berry_bush",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:dirt_path",
-            "probability": 0.10
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:grass_block"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:cobweb",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:poppy",
-            "probability": 0.50
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:poppy",
             "probability": 0.15
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:brown_mushroom"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:poppy",
             "probability": 0.35
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:dandelion"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:brown_carpet",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:moss_carpet"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -146,7 +146,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:furnace",
@@ -155,7 +155,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -179,7 +182,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -194,7 +200,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:furnace",
@@ -203,7 +209,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -227,7 +236,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          }
         },
         {
           "location_predicate": {
@@ -251,7 +263,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":5}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":5}]}
+          }
         }
       ]
     }

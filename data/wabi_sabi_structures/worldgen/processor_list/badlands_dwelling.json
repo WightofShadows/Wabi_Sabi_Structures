@@ -10,7 +10,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:anvil",
-            "probability": 0.70
+            "probability": 0.7
           },
           "output_state": {
             "Name": "minecraft:smooth_stone"
@@ -49,33 +49,33 @@
           }
         },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:grass_block"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:coarse_dirt",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "block": "minecraft:grass_block",
-            "predicate_type": "minecraft:block_match"
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:grass_block"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:red_sand"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:coarse_dirt",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "block": "minecraft:red_sand",
-            "predicate_type": "minecraft:block_match"
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:red_sand"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -83,7 +83,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:coarse_dirt",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:packed_mud"
@@ -96,7 +96,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:stonecutter",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:smooth_stone"
@@ -109,7 +109,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grindstone",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:smooth_stone"
@@ -122,7 +122,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:large_amethyst_bud",
-            "probability": 0.70
+            "probability": 0.7
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -151,7 +151,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:wheat",
@@ -183,7 +183,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 1.00
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:wheat",
@@ -205,7 +205,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:smoker",
@@ -214,7 +214,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -238,7 +241,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -262,7 +268,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -277,7 +286,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:smoker",
@@ -286,31 +295,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_blockstate_match",
-            "block_state": {
-              "Name": "minecraft:smoker",
-              "Properties": {
-                "facing": "west",
-                "lit": "false"
-              }
-            },
-            "probability": 0.25
-          },
-          "output_state": {
-            "Name": "minecraft:smoker",
-            "Properties": {
-              "facing": "west",
-              "lit": "false"
-            }
-          },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -334,7 +322,37 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:baked_potato","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smoker",
+              "Properties": {
+                "facing": "west",
+                "lit": "false"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:smoker",
+            "Properties": {
+              "facing": "west",
+              "lit": "false"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:baked_potato","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -349,7 +367,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:blast_furnace",
@@ -358,7 +376,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -382,7 +403,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -406,7 +430,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -430,7 +457,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          }
         },
         {
           "location_predicate": {
@@ -445,7 +475,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:blast_furnace",
@@ -454,7 +484,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -478,7 +511,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -502,7 +538,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -526,7 +565,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          }
         },
         {
           "location_predicate": {
@@ -541,7 +583,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:blast_furnace",
@@ -550,7 +592,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -574,7 +619,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -598,7 +646,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -622,7 +673,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          }
         },
         {
           "location_predicate": {
@@ -637,7 +691,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:blast_furnace",
@@ -646,7 +700,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -670,7 +727,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -694,7 +754,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -718,21 +781,24 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          }
         },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:candle",
-            "probability": 0.50
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -740,7 +806,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:candle",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:candle",

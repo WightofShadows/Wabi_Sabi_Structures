@@ -303,7 +303,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -315,9 +315,12 @@
           "output_state": {
             "Name": "minecraft:spawner"
           },
-          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:phantom"}}}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:phantom"}}}
+          }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -329,21 +332,27 @@
           "output_state": {
             "Name": "minecraft:spawner"
           },
-          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:creeper"}}}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:creeper"}}}
+          }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:honey_block",
-            "probability": 1.0
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:spawner"
           },
-          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:zombie"}}}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:zombie"}}}
+          }
         },
         {
           "location_predicate": {
@@ -376,7 +385,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Bees":[{"EntityData":{"id":"minecraft:bee"}}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Bees":[{"EntityData":{"id":"minecraft:bee"}}]}
+          }
         }
       ]
     }

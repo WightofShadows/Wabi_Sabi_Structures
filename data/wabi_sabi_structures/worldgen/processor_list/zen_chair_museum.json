@@ -129,7 +129,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -153,7 +156,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -177,7 +183,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          }
         },
         {
           "location_predicate": {

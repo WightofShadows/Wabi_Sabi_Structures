@@ -176,7 +176,10 @@
               "facing": "south"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:stripped_spruce_log","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:stripped_spruce_log","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -360,6 +363,19 @@
               "facing": "south",
               "waterlogged": "false"
             }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:suspicious_sand",
+            "probability": 0.77
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
           }
         }
       ]

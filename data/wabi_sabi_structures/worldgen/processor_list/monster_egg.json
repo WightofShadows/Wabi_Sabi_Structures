@@ -67,6 +67,26 @@
           "output_state": {
             "Name": "minecraft:air"
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dead_brain_coral_block",
+            "probability": 0.18
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_gravel",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "wabi_sabi_structures:archaeology/monster_egg/monster_egg_archaeology"
+          }
         }
       ]
     }

@@ -23,7 +23,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:cooked_salmon","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":2,"id":"minecraft:cooked_salmon","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -45,7 +48,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:cooked_chicken","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":2,"id":"minecraft:cooked_chicken","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -59,7 +65,7 @@
                 "facing": "west"
               }
             },
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:furnace",
@@ -67,7 +73,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -89,7 +98,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -103,7 +115,7 @@
                 "facing": "west"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:furnace",
@@ -111,7 +123,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -133,7 +148,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          }
         },
         {
           "location_predicate": {
@@ -155,7 +173,10 @@
               "facing": "west"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":5}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":5}]}
+          }
         }
       ]
     }

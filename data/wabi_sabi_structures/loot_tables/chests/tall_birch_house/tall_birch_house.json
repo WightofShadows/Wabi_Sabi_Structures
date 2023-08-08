@@ -92,7 +92,7 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:experience_bottle",
-			"functions": [
+          "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
@@ -187,5 +187,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "wabi_sabi_structures:chests/tall_birch_house/tall_birch_house"
 }

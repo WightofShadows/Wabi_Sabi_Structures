@@ -20,250 +20,250 @@
           }
         },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:cobweb",
             "probability": 0.85
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass",
             "probability": 0.65
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:fern"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.06
           },
+          "output_state": {
+            "Name": "minecraft:carved_pumpkin",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
-          "output_state": {
-            "Name": "minecraft:carved_pumpkin",
-              "Properties": {
-                "facing": "north"
-            }
-          }
-		},
-        {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.06
           },
+          "output_state": {
+            "Name": "minecraft:carved_pumpkin",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
-          "output_state": {
-            "Name": "minecraft:carved_pumpkin",
-              "Properties": {
-                "facing": "south"
-            }
-          }
-		},
-        {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.06
           },
+          "output_state": {
+            "Name": "minecraft:carved_pumpkin",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
-          "output_state": {
-            "Name": "minecraft:carved_pumpkin",
-              "Properties": {
-                "facing": "east"
-            }
-          }
-		},
-        {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.06
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:carved_pumpkin",
-              "Properties": {
-                "facing": "west"
+            "Properties": {
+              "facing": "west"
             }
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.01
           },
+          "output_state": {
+            "Name": "minecraft:jack_o_lantern",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
-          "output_state": {
-            "Name": "minecraft:jack_o_lantern",
-              "Properties": {
-                "facing": "north"
-            }
-          }
-		},
-        {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.01
           },
+          "output_state": {
+            "Name": "minecraft:jack_o_lantern",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
-          "output_state": {
-            "Name": "minecraft:jack_o_lantern",
-              "Properties": {
-                "facing": "south"
-            }
-          }
-		},
-        {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.01
           },
+          "output_state": {
+            "Name": "minecraft:jack_o_lantern",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
-          "output_state": {
-            "Name": "minecraft:jack_o_lantern",
-              "Properties": {
-                "facing": "east"
-            }
-          }
-		},
-        {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.01
           },
+          "output_state": {
+            "Name": "minecraft:jack_o_lantern",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
-          "output_state": {
-            "Name": "minecraft:jack_o_lantern",
-              "Properties": {
-                "facing": "west"
-            }
-          }
-		},
-        {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:pumpkin",
             "probability": 0.15
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:mangrove_roots"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:acacia_planks",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:pumpkin"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:podzol"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
             "probability": 0.15
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:rooted_dirt"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:vine",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:azalea_leaves",
             "probability": 0.05
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:flowering_azalea_leaves"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -276,8 +276,11 @@
           "output_state": {
             "Name": "minecraft:spawner"
           },
-          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:cave_spider"}}}
-		},
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:cave_spider"}}}
+          }
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -290,7 +293,10 @@
           "output_state": {
             "Name": "minecraft:spawner"
           },
-          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:bat"}}}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:bat"}}}
+          }
         },
         {
           "location_predicate": {
@@ -299,26 +305,29 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:end_portal_frame",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:spawner"
           },
-          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:silverfish"}}}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:silverfish"}}}
+          }
         },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:end_portal_frame",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:podzol"
           }
-		}
+        }
       ]
     }
   ]

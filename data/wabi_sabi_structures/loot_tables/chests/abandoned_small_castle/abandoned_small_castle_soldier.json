@@ -10,7 +10,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:cobweb",
           "functions": [
             {
@@ -147,8 +146,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
           "weight": 2,
+          "name": "minecraft:potion",
           "functions": [
             {
               "function": "minecraft:set_potion",
@@ -167,8 +166,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
           "weight": 1,
+          "name": "minecraft:potion",
           "functions": [
             {
               "function": "minecraft:set_potion",
@@ -442,5 +441,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "wabi_sabi_structures:chests/abandoned_small_castle/abandoned_small_castle_soldier"
 }

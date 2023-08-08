@@ -15,7 +15,10 @@
           "output_state": {
             "Name": "minecraft:spawner"
           },
-          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:zombie"}}}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:zombie"}}}
+          }
         },
         {
           "location_predicate": {

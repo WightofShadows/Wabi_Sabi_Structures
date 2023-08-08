@@ -20,18 +20,18 @@
           }
         },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
             "probability": 0.75
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -44,22 +44,25 @@
           "output_state": {
             "Name": "minecraft:barrel"
           },
-          "output_nbt": {"LootTable":"wabi_sabi_structures:chests/wheat_patch/wheat_patch"}
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "wabi_sabi_structures:chests/wheat_patch/wheat_patch"
+          }
         },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 0.80
-          },
-          "location_predicate": {
-            "block": "minecraft:water",
-            "predicate_type": "minecraft:block_match"
+            "probability": 0.8
           },
           "output_state": {
             "Name": "minecraft:mud"
           }
-		}
+        }
       ]
     }
   ]

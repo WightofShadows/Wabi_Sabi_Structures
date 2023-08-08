@@ -1,10 +1,10 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#wabi_sabi_structures:has_structure/hide_tannery",
+    "biomes": "#wabi_sabi_structures:has_structure/bee_farm_forest",
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-    "start_pool": "wabi_sabi_structures:hide_tannery",
+    "start_pool": "wabi_sabi_structures:bee_farm_forest",
     "size": 7,
     "step": "surface_structures",
     "start_height": {

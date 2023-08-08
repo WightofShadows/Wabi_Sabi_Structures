@@ -10,7 +10,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 0.30
+            "probability": 0.3
           },
           "output_state": {
             "Name": "minecraft:rooted_dirt"
@@ -23,7 +23,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -52,7 +52,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:sponge",
-            "probability": 1.0
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:spruce_log",
@@ -68,7 +68,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:composter",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:composter",
@@ -84,7 +84,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:composter",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:composter",
@@ -100,7 +100,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:composter",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:composter",
@@ -116,7 +116,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:composter",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:composter",
@@ -132,7 +132,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:composter",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:composter",
@@ -148,7 +148,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:composter",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:composter",
@@ -164,7 +164,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:composter",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:composter",
@@ -180,7 +180,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:composter",
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:composter",
@@ -196,155 +196,155 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 0.70
+            "probability": 0.7
           },
           "output_state": {
             "Name": "minecraft:moss_block"
           }
         },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
             "probability": 0.05
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
           },
           "output_state": {
             "Name": "minecraft:potted_azalea"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
             "probability": 0.05
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:potted_flowering_azalea"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
-            "probability": 0.10
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:potted_oak_sapling"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
-            "probability": 0.10
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:potted_spruce_sapling"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
             "probability": 0.15
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
           },
           "output_state": {
             "Name": "minecraft:potted_orange_tulip"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
             "probability": 0.15
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
           },
           "output_state": {
             "Name": "minecraft:potted_red_tulip"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
             "probability": 0.15
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
           },
           "output_state": {
             "Name": "minecraft:potted_pink_tulip"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
             "probability": 0.15
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:potted_white_tulip"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:flower_pot",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:potted_dark_oak_sapling"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:potted_mangrove_propagule",
             "probability": 0.25
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
           },
           "output_state": {
             "Name": "minecraft:potted_red_mushroom"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:potted_mangrove_propagule",
             "probability": 0.25
           },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
           "output_state": {
             "Name": "minecraft:potted_brown_mushroom"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -367,7 +367,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -382,7 +385,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:smoker",
@@ -391,7 +394,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+          }
         },
         {
           "location_predicate": {
@@ -415,7 +421,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -439,7 +448,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":4}]}
+          }
         }
       ]
     }

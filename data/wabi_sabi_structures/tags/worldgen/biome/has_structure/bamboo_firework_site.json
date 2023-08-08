@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bamboo_jungle",
+    {
+        "id": "terralith:amethyst_rainforest",
+        "required": false
+    },
+    {
+        "id": "terralith:sakura_grove",
+        "required": false
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
-    "name": "wabi_sabi_structures:bee_farm",
+    "name": "wabi_sabi_structures:bee_farm_cherry",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:bee_farm/bee_farm",
+                "location": "wabi_sabi_structures:bee_farm/bee_farm_cherry",
                 "projection": "rigid",
-                "processors": "wabi_sabi_structures:bee_farm"
+                "processors": "wabi_sabi_structures:bee_farm_cherry"
             }
         }
     ]

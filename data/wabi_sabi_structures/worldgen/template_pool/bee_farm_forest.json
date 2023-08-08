@@ -1,14 +1,14 @@
 {
-    "name": "wabi_sabi_structures:hide_tannery",
+    "name": "wabi_sabi_structures:bee_farm_forest",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:hide_tannery/hide_tannery",
+                "location": "wabi_sabi_structures:bee_farm/bee_farm_forest",
                 "projection": "rigid",
-                "processors": "wabi_sabi_structures:hide_tannery"
+                "processors": "wabi_sabi_structures:bee_farm_forest"
             }
         }
     ]

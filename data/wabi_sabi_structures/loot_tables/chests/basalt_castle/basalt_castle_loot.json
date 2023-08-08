@@ -120,6 +120,10 @@
           "name": "minecraft:golden_helmet",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:snout\"}}"
+            },
+            {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
@@ -135,6 +139,10 @@
           "weight": 1,
           "name": "minecraft:golden_chestplate",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:snout\"}}"
+            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
@@ -152,6 +160,10 @@
           "name": "minecraft:golden_leggings",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:snout\"}}"
+            },
+            {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
@@ -167,6 +179,10 @@
           "weight": 1,
           "name": "minecraft:golden_boots",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:snout\"}}"
+            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
@@ -190,5 +206,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "wabi_sabi_structures:chests/basalt_castle/basalt_castle_loot"
 }

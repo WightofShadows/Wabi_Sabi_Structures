@@ -215,7 +215,10 @@
           "output_state": {
             "Name": "minecraft:barrel"
           },
-          "output_nbt": {"LootTable":"wabi_sabi_structures:chests/carrot_patch/carrot_patch"}
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "wabi_sabi_structures:chests/carrot_patch/carrot_patch"
+          }
         },
         {
           "location_predicate": {

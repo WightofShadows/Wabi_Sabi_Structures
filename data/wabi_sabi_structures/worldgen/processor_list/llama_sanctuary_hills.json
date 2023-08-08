@@ -192,6 +192,19 @@
               "age": "6"
             }
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:suspicious_gravel",
+            "probability": 0.83
+          },
+          "output_state": {
+            "Name": "minecraft:gravel"
+          }
         }
       ]
     }

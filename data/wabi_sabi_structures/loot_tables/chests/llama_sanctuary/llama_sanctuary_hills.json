@@ -236,6 +236,30 @@
           "name": "minecraft:lead"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brush",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.3,
+                "max": 0.7
+              }
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "random_sequence": "wabi_sabi_structures:chests/llama_sanctuary/llama_sanctuary_hills"
 }

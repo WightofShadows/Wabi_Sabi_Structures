@@ -10,7 +10,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:cobweb",
           "functions": [
             {
@@ -309,5 +308,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "wabi_sabi_structures:chests/abandoned_small_castle/abandoned_small_castle_storage"
 }

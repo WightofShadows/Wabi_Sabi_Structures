@@ -6,7 +6,7 @@
     "minecraft:old_growth_spruce_taiga",
     "minecraft:windswept_gravelly_hills",
 	{
-		"id": "graveyard_biomes:haunted_lakes",
+		"id": "nyctophobia:haunted_lakes",
 		"required": false
 	},
     {

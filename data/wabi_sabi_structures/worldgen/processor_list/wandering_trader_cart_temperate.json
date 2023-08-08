@@ -4,47 +4,75 @@
       "processor_type": "minecraft:rule",
       "rules": [
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:mycelium"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "block": "minecraft:mycelium",
-            "predicate_type": "minecraft:block_match"
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:mycelium"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:podzol"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "block": "minecraft:podzol",
-            "predicate_type": "minecraft:block_match"
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:podzol"
           }
-		},
+        },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:coarse_dirt"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 1.0
-          },
-          "location_predicate": {
-            "block": "minecraft:coarse_dirt",
-            "predicate_type": "minecraft:block_match"
+            "probability": 1
           },
           "output_state": {
             "Name": "minecraft:coarse_dirt"
           }
-		},
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:sand"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:red_sand"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:red_sand"
+          }
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -52,11 +80,11 @@
             "probability": 1.0
           },
           "location_predicate": {
-            "block": "minecraft:sand",
+            "block": "minecraft:terracotta",
             "predicate_type": "minecraft:block_match"
           },
           "output_state": {
-            "Name": "minecraft:sand"
+            "Name": "minecraft:terracotta"
           }
 		},
         {
@@ -66,11 +94,109 @@
             "probability": 1.0
           },
           "location_predicate": {
-            "block": "minecraft:red_sand",
+            "block": "minecraft:white_terracotta",
             "predicate_type": "minecraft:block_match"
           },
           "output_state": {
-            "Name": "minecraft:red_sand"
+            "Name": "minecraft:white_terracotta"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:light_gray_terracotta",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:light_gray_terracotta"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:gray_terracotta",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:gray_terracotta"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:black_terracotta",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:black_terracotta"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:brown_terracotta",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:brown_terracotta"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:red_terracotta",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:red_terracotta"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:orange_terracotta",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:orange_terracotta"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "block": "minecraft:yellow_terracotta",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:yellow_terracotta"
           }
 		},
         {
@@ -95,7 +221,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:popped_chorus_fruit","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":2,"id":"minecraft:popped_chorus_fruit","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -110,7 +239,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.10
+            "probability": 0.1
           },
           "output_state": {
             "Name": "minecraft:smoker",
@@ -119,7 +248,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+          }
         },
         {
           "location_predicate": {
@@ -143,7 +275,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:stick","Count":12}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:stick","Count":12}]}
+          }
         },
         {
           "location_predicate": {
@@ -158,7 +293,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:smoker",
@@ -167,7 +302,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:stick","Count":7}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:stick","Count":7}]}
+          }
         },
         {
           "location_predicate": {
@@ -182,7 +320,7 @@
                 "lit": "false"
               }
             },
-            "probability": 0.30
+            "probability": 0.3
           },
           "output_state": {
             "Name": "minecraft:smoker",
@@ -191,7 +329,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:stick","Count":4}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:stick","Count":4}]}
+          }
         },
         {
           "location_predicate": {
@@ -215,7 +356,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":3}]}
+          }
         },
         {
           "location_predicate": {
@@ -239,7 +383,10 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":5}]}
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":5}]}
+          }
         }
       ]
     }

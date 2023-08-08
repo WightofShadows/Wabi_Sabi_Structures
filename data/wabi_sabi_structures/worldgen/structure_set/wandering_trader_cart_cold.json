@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "wabi_sabi_structures:wandering_trader_cart_cold",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "spacing": 75,
+        "separation": 45,
+        "salt": 86291238
+    }
+}

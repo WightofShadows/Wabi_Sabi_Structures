@@ -1,0 +1,69 @@
+{
+  "name": "wabi_sabi_structures:woody_camp",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:woody_camp/camp_small_abandoned",
+        "processors": "wabi_sabi_structures:woody_camp"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:woody_camp/camp_small_fallen_tree",
+        "processors": "wabi_sabi_structures:woody_camp"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:woody_camp/camp_small_mossy",
+        "processors": "wabi_sabi_structures:woody_camp"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:woody_camp/camp_small_tent",
+        "processors": "wabi_sabi_structures:woody_camp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:woody_camp/camp_small_donkey",
+        "processors": "wabi_sabi_structures:woody_camp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:woody_camp/camp_medium_oak_tower",
+        "processors": "wabi_sabi_structures:woody_camp"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:woody_camp/camp_medium_caged_golem",
+        "processors": "wabi_sabi_structures:woody_camp"
+      }
+    }
+  ]
+}

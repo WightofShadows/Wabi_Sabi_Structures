@@ -8,6 +8,38 @@
 	{
 		"id": "graveyard_biomes:haunted_lakes",
 		"required": false
-	}
+	},
+    {
+        "id": "terralith:ancient_sands",
+        "required": false
+    },
+    {
+        "id": "terralith:desert_spires",
+        "required": false
+    },
+    {
+        "id": "terralith:lush_desert",
+        "required": false
+    },
+    {
+        "id": "terralith:shrubland",
+        "required": false
+    },
+    {
+        "id": "terralith:valley_clearing",
+        "required": false
+    },
+    {
+        "id": "terrestria:canyon",
+        "required": false
+    },
+    {
+        "id": "terrestria:dunes",
+        "required": false
+    },
+    {
+        "id": "terrestria:lush_desert",
+        "required": false
+    }
   ]
 }

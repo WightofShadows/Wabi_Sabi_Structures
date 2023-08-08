@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+	{
+		"id": "traverse:desert_shrubland",
+		"required": false
+	},
+	{
+		"id": "terrestria:dunes",
+		"required": false
+	},
+	{
+		"id": "terrestria:lush_desert",
+		"required": false
+	},
+	{
+		"id": "terralith:ancient_sands",
+		"required": false
+	},
+	{
+		"id": "terralith:desert_spires",
+		"required": false
+	},
+	{
+		"id": "terralith:sandstone_valley",
+		"required": false
+	}
+  ]
+}

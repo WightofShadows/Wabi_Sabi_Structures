@@ -1,0 +1,51 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    {
+        "id": "terralith:alpine_highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:brushland",
+        "required": false
+    },
+    {
+        "id": "terralith:lush_desert",
+        "required": false
+    },
+    {
+        "id": "terralith:shrubland",
+        "required": false
+    },
+    {
+        "id": "terralith:yosemite_lowlands",
+        "required": false
+    },
+    {
+        "id": "traverse:desert_shrubland",
+        "required": false
+    },
+    {
+        "id": "traverse:autumnal_woods",
+        "required": false
+    },
+    {
+        "id": "traverse:flatlands",
+        "required": false
+    },
+    {
+        "id": "traverse:woodlands",
+        "required": false
+    },
+    {
+        "id": "terrestria:cypress_forest",
+        "required": false
+    },
+    {
+        "id": "terrestria:dense_woodlands",
+        "required": false
+    }
+  ]
+}

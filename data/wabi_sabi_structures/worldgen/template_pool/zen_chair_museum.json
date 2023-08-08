@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:zen_chair_museum",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:zen_chair_museum/zen_chair_museum",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:zen_chair_museum"
+            }
+        }
+    ]
+}

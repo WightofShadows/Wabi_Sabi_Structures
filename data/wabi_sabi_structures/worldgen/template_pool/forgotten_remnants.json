@@ -1,0 +1,60 @@
+{
+  "name": "wabi_sabi_structures:forgotten_remnants",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:forgotten_remnants/forgotten_remnants_bones",
+        "processors": "wabi_sabi_structures:forgotten_remnants_persistent"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:forgotten_remnants/forgotten_remnants_altar",
+        "processors": "wabi_sabi_structures:forgotten_remnants"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:forgotten_remnants/forgotten_remnants_camp",
+        "processors": "wabi_sabi_structures:forgotten_remnants"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:forgotten_remnants/forgotten_remnants_ice_house",
+        "processors": "wabi_sabi_structures:forgotten_remnants"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:forgotten_remnants/forgotten_remnants_broken_portal",
+        "processors": "wabi_sabi_structures:forgotten_remnants"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:forgotten_remnants/forgotten_remnants_maze_cellar",
+        "processors": "wabi_sabi_structures:forgotten_remnants_persistent"
+      }
+    }
+  ]
+}

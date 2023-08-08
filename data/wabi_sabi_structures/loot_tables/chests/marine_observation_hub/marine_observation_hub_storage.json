@@ -4,8 +4,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 3,
-        "max": 6
+        "min": 2,
+        "max": 4
       },
       "entries": [
         {
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "rolls": 3,
+      "rolls": 2,
       "bonus_rolls": 4,
       "entries": [
         {
@@ -548,7 +548,7 @@
       "rolls": {
         "type": "minecraft:uniform",
         "min": 0,
-        "max": 3
+        "max": 2
       },
       "bonus_rolls": 0,
       "entries": [
@@ -882,7 +882,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 20
+          "weight": 30
         },
         {
           "type": "minecraft:item",

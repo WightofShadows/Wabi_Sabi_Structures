@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "wabi_sabi_structures:hide_tannery",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "spacing": 80,
+        "separation": 55,
+        "salt": 93198983
+    }
+}

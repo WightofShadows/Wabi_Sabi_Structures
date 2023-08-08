@@ -7,6 +7,10 @@
 	{
 		"id": "graveyard_biomes:deep_dark_forest",
 		"required": false
-	}
+	},
+    {
+        "id": "terralith:bryce_canyon",
+        "required": false
+    }
   ]
 }

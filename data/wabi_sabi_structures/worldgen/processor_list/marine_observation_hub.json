@@ -773,7 +773,7 @@
               "lit": "false"
             }
           },
-          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:cooked_steak","Count":1}]}
+          "output_nbt": {"Items":[{"Slot":2,"id":"minecraft:cooked_beef","Count":1}]}
         },
         {
           "location_predicate": {

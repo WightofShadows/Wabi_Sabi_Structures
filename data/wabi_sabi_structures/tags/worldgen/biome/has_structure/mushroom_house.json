@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:swamp",
+    {
+        "id": "terralith:orchid_swamp",
+        "required": false
+    },
+    {
+        "id": "traverse:lush_swamp",
+        "required": false
+    }
+  ]
+}

@@ -211,6 +211,19 @@
             "predicate_type": "minecraft:always_true"
           },
           "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:candle",
+            "probability": 0.65
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
             "predicate_type": "minecraft:random_blockstate_match",
             "block_state": {
               "Name": "minecraft:candle",

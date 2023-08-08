@@ -1,0 +1,141 @@
+{
+  "name": "wabi_sabi_structures:carrot_patch",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/two_carrot_plant",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/mini_carrot_patch_variant_1",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/mini_carrot_patch_variant_2",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/mini_carrot_patch_variant_3",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/mini_carrot_patch_variant_4",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/mini_carrot_patch_variant_5",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/tiny_carrot_patch_variant_1",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/tiny_carrot_patch_variant_2",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/tiny_carrot_patch_variant_3",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/tiny_carrot_patch_variant_4",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/small_carrot_patch_variant_1",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/small_carrot_patch_variant_2",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/small_carrot_patch_variant_3",
+        "processors": "wabi_sabi_structures:carrot_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/carrot_field_variant_1",
+        "processors": "wabi_sabi_structures:carrot_field"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:carrot_patch/carrot_field_variant_2",
+        "processors": "wabi_sabi_structures:carrot_field"
+      }
+    }
+  ]
+}

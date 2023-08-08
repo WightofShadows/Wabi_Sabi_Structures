@@ -1,0 +1,405 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:coarse_dirt",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt_path",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:andesite",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:moss_block",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:podzol",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cobweb",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:brown_mushroom",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:vine",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:moss_carpet",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_button",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:candle",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:candle",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:candle",
+            "Properties": {
+              "candles": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:candle",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:candle",
+            "Properties": {
+              "candles": "3"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:composter",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:composter",
+            "Properties": {
+              "level": "1"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:composter",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:composter",
+            "Properties": {
+              "level": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:composter",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:composter",
+            "Properties": {
+              "level": "3"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:composter",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:composter",
+            "Properties": {
+              "level": "4"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:composter",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:composter",
+            "Properties": {
+              "level": "5"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:composter",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:composter",
+            "Properties": {
+              "level": "6"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:composter",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:composter",
+            "Properties": {
+              "level": "7"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:composter",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:composter",
+            "Properties": {
+              "level": "8"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:water_cauldron",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:water_cauldron",
+            "Properties": {
+              "level": "1"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:water_cauldron",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:water_cauldron",
+            "Properties": {
+              "level": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:beetroots",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:beetroots",
+            "Properties": {
+              "age": "1"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:beetroots",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:beetroots",
+            "Properties": {
+              "age": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:beetroots",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:beetroots",
+            "Properties": {
+              "age": "3"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

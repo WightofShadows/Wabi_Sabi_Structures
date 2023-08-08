@@ -7,8 +7,8 @@
     ],
     "placement": {
         "type": "random_spread",
-        "spacing": 36,
-        "separation": 22,
+        "spacing": 50,
+        "separation": 40,
         "salt": 43989373
     }
 }

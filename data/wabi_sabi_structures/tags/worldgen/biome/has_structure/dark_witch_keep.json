@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    {
+	    "id": "terralith:mirage_isles",
+	    "required": false
+    },
+    {
+	    "id": "graveyard_biomes:deep_dark_forest",
+	    "required": false
+    }
+  ]
+}

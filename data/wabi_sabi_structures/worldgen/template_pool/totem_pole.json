@@ -37,6 +37,15 @@
         "location": "wabi_sabi_structures:totem_pole/totem_pole_4",
         "processors": "wabi_sabi_structures:totem_pole"
       }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:totem_pole/totem_pole_5",
+        "processors": "wabi_sabi_structures:totem_pole"
+      }
     }
   ]
 }

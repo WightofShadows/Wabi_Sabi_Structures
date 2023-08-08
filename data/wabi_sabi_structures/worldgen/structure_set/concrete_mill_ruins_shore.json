@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "wabi_sabi_structures:concrete_mill_ruins_shore",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "spacing": 30,
+        "separation": 25,
+        "salt": 93083295
+    }
+}

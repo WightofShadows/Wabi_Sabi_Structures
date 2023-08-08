@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "wabi_sabi_structures:forgotten_remnants",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "spacing": 12,
+        "separation": 4,
+        "salt": 14609234
+    }
+}

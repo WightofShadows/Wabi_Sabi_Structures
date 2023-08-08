@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:concrete_mill_ruins_shore",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/concrete_mill_ruins_shore",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:concrete_mill_ruins_shore"
+            }
+        }
+    ]
+}

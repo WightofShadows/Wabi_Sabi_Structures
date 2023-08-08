@@ -10,7 +10,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:seagrass",
-            "probability": 0.80
+            "probability": 0.8
           },
           "output_state": {
             "Name": "minecraft:water"
@@ -36,7 +36,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:cobweb",
-            "probability": 0.80
+            "probability": 0.8
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -49,7 +49,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:candle",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -78,9 +78,11 @@
             "probability": 0.25
           },
           "output_state": {
-            "Name": "minecraft:water_cauldron"
-          },
-          "output_nbt": {"Level":1}
+            "Name": "minecraft:water_cauldron",
+            "Properties": {
+              "level": "1"
+            }
+          }
         },
         {
           "location_predicate": {
@@ -89,12 +91,14 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:water_cauldron",
-            "probability": 0.50
+            "probability": 0.5
           },
           "output_state": {
-            "Name": "minecraft:water_cauldron"
-          },
-          "output_nbt": {"Level":2}
+            "Name": "minecraft:water_cauldron",
+            "Properties": {
+              "level": "2"
+            }
+          }
         },
         {
           "location_predicate": {

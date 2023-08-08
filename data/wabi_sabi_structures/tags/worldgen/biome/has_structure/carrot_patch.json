@@ -1,0 +1,39 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    {
+	    "id": "terralith:birch_taiga",
+	    "required": false
+    },
+    {
+	    "id": "terralith:cloud_forest",
+	    "required": false
+    },
+    {
+	    "id": "terralith:temperate_highlands",
+	    "required": false
+    },
+    {
+        "id": "traverse:woodlands",
+        "required": false
+    },
+    {
+        "id": "terrestria:cypress_forest",
+        "required": false
+    },
+    {
+        "id": "terrestria:dense_woodlands",
+        "required": false
+    },
+    {
+        "id": "terrestria:hemlock_rainforest",
+        "required": false
+    },
+    {
+        "id": "terrestria:redwood_forest",
+        "required": false
+    }
+  ]
+}

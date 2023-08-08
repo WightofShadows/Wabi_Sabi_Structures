@@ -3,6 +3,18 @@
   "values": [
     "minecraft:meadow",
     "minecraft:plains",
-    "minecraft:sunflower_plains"
+    "minecraft:sunflower_plains",
+    {
+        "id": "terralith:highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:steppe",
+        "required": false
+    },
+    {
+        "id": "terrestria:cypress_forest",
+        "required": false
+    }
   ]
 }

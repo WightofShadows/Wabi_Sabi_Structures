@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "spacing": 22,
+        "separation": 15,
+        "salt": 27162599
+    }
+}

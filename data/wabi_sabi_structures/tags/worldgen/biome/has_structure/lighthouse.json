@@ -3,6 +3,26 @@
   "values": [
     "minecraft:beach",
     "minecraft:snowy_beach",
-    "minecraft:stony_shore"
+    "minecraft:stony_shore",
+    {
+        "id": "terralith:granite_cliffs",
+        "required": false
+    },
+    {
+        "id": "terralith:gravel_beach",
+        "required": false
+    },
+    {
+        "id": "terralith:white_cliffs",
+        "required": false
+    },
+    {
+        "id": "graveyard_biomes:ancient_dead_coral_reef",
+        "required": false
+    },
+    {
+        "id": "terrestria:volcanic_island",
+        "required": false
+    }
   ]
 }

@@ -1,0 +1,227 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:rooted_dirt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:mud"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:gravel",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:mud"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sand",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:mud"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:mud"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:beetroots",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:beetroots",
+            "Properties": {
+              "age": "3"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:beetroots",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:beetroots",
+            "Properties": {
+              "age": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:beetroots",
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:beetroots",
+            "Properties": {
+              "age": "1"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:beetroots",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:beetroots",
+            "Properties": {
+              "age": "0"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 0.6
+          },
+          "output_state": {
+            "Name": "minecraft:mud"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:farmland"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:mud",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:farmland"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:water_cauldron",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:cauldron"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:water_cauldron",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:water_cauldron",
+            "Properties": {
+              "level": "1"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:water_cauldron",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:water_cauldron",
+            "Properties": {
+              "level": "3"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sand",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -93,6 +93,33 @@
           "output_state": {
             "Name": "minecraft:dead_brain_coral_block"
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:air",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dead_brain_coral_block",
+            "probability": 0.33
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
         }
       ]
     }

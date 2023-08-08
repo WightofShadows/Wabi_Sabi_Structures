@@ -26,6 +26,38 @@
 	{
 		"id": "graveyard_biomes:deep_dark_forest",
 		"required": false
-	}
+	},
+    {
+        "id": "traverse:desert_shrubland",
+        "required": false
+    },
+    {
+        "id": "traverse:autumnal_woods",
+        "required": false
+    },
+    {
+        "id": "traverse:flatlands",
+        "required": false
+    },
+    {
+        "id": "traverse:lush_swamp",
+        "required": false
+    },
+    {
+        "id": "traverse:woodlands",
+        "required": false
+    },
+    {
+        "id": "terrestria:cypress_forest",
+        "required": false
+    },
+    {
+        "id": "terrestria:dense_woodlands",
+        "required": false
+    },
+    {
+        "id": "terrestria:lush_redwood_forest",
+        "required": false
+    }
   ]
 }

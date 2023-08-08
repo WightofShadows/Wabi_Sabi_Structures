@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:wandering_trader_cart_cold",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:wandering_trader_cart/wandering_trader_cart_cold",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:wandering_trader_cart_cold"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+        "id": "terralith:shield",
+        "required": false
+    },
+    {
+        "id": "terralith:siberian_taiga",
+        "required": false
+    },
+    {
+        "id": "traverse:coniferous_forest",
+        "required": false
+    },
+    {
+        "id": "terrestria:redwood_forest",
+        "required": false
+    }
+  ]
+}

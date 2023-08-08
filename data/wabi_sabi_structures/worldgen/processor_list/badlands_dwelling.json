@@ -271,6 +271,78 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_blockstate_match",
             "block_state": {
+              "Name": "minecraft:smoker",
+              "Properties": {
+                "facing": "west",
+                "lit": "false"
+              }
+            },
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:smoker",
+            "Properties": {
+              "facing": "west",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":1}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smoker",
+              "Properties": {
+                "facing": "west",
+                "lit": "false"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:smoker",
+            "Properties": {
+              "facing": "west",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":2}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smoker",
+              "Properties": {
+                "facing": "west",
+                "lit": "false"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:smoker",
+            "Properties": {
+              "facing": "west",
+              "lit": "false"
+            }
+          },
+          "output_nbt": {"Items":[{"Slot":1,"id":"minecraft:baked_potato","Count":1}]}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
               "Name": "minecraft:blast_furnace",
               "Properties": {
                 "facing": "south",

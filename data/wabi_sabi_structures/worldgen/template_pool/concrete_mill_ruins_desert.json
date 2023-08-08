@@ -6,7 +6,7 @@
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:concrete_mill_ruins_desert/concrete_mill_ruins_desert",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/concrete_mill_ruins_desert",
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:concrete_mill_ruins_desert"
             }

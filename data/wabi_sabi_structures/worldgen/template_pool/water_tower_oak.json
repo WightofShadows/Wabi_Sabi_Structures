@@ -6,7 +6,7 @@
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:water_tower_oak/water_tower_oak",
+                "location": "wabi_sabi_structures:water_tower/water_tower_oak",
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:water_tower_oak"
             }

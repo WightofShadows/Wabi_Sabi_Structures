@@ -6,7 +6,7 @@
             "weight": 4,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:effigy_patch_mushroom/effigy_patch_mushroom_sentinel",
+                "location": "wabi_sabi_structures:effigy_patch/effigy_patch_mushroom_sentinel",
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:effigy_patch_mushroom"
             }
@@ -15,7 +15,7 @@
             "weight": 4,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:effigy_patch_mushroom/effigy_patch_mushroom_hunter",
+                "location": "wabi_sabi_structures:effigy_patch/effigy_patch_mushroom_hunter",
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:effigy_patch_mushroom"
             }
@@ -24,7 +24,7 @@
             "weight": 3,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:effigy_patch_mushroom/effigy_patch_mushroom_naturalist",
+                "location": "wabi_sabi_structures:effigy_patch/effigy_patch_mushroom_naturalist",
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:effigy_patch_mushroom"
             }
@@ -33,7 +33,7 @@
             "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:effigy_patch_mushroom/effigy_patch_mushroom_soothsayer",
+                "location": "wabi_sabi_structures:effigy_patch/effigy_patch_mushroom_soothsayer",
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:effigy_patch_mushroom"
             }

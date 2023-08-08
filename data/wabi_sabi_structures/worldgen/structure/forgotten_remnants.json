@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#wabi_sabi_structures:has_structure/forgotten_remnants",
+    "adapt_noise": true,
+	"spawn_overrides": {
+	  "ambient": {
+        "bounding_box": "full",
+        "spawns": []
+      },
+      "axolotls": {
+        "bounding_box": "full",
+        "spawns": []
+      },
+      "creature": {
+        "bounding_box": "full",
+        "spawns": []
+      },
+      "misc": {
+        "bounding_box": "full",
+        "spawns": []
+      },
+      "monster": {
+        "bounding_box": "full",
+        "spawns": []
+      },
+      "underground_water_creature": {
+        "bounding_box": "full",
+        "spawns": []
+      },
+      "water_ambient": {
+        "bounding_box": "full",
+        "spawns": []
+      },
+      "water_creature": {
+        "bounding_box": "full",
+        "spawns": []
+      }
+    },
+	"terrain_adaptation": "beard_thin",
+    "start_pool": "wabi_sabi_structures:forgotten_remnants",
+    "size": 7,
+    "step": "underground_decoration",
+	"start_height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": -40
+      },
+      "max_inclusive": {
+        "absolute": 0
+      }
+    },
+    "max_distance_from_center": 50,
+    "use_expansion_hack": false
+}

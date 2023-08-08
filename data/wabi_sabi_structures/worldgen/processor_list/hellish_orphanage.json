@@ -9,6 +9,34 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:slime_block",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:spawner"
+          },
+          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:vex"}}}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:honeycomb_block",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:spawner"
+          },
+          "output_nbt": {"SpawnData":{"entity":{"id":"minecraft:wither_skeleton"}}}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:hanging_roots",
             "probability": 0.50
           },

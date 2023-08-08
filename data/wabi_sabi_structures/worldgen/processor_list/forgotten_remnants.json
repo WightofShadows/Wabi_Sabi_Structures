@@ -1,0 +1,386 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:blue_ice"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:deepslate",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:deepslate_tiles"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:deepslate",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:deepslate_tiles"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:warped_wart_block"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:deepslate",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:warped_wart_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:deepslate_bricks",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_deepslate_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:deepslate_tiles",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_deepslate_tiles"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sculk_vein",
+            "probability": 0.6
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sculk_catalyst",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sculk_sensor",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sculk_shrieker",
+            "probability": 0.45
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:candle",
+              "Properties": {
+                "candles": "1",
+                "lit": "true",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:candle",
+            "Properties": {
+              "candles": "1",
+              "lit": "false",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:candle",
+              "Properties": {
+                "candles": "2",
+                "lit": "true",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:candle",
+            "Properties": {
+              "candles": "2",
+              "lit": "false",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:candle",
+              "Properties": {
+                "candles": "3",
+                "lit": "true",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:candle",
+            "Properties": {
+              "candles": "3",
+              "lit": "false",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:candle",
+              "Properties": {
+                "candles": "4",
+                "lit": "true",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:candle",
+            "Properties": {
+              "candles": "4",
+              "lit": "false",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:soul_torch",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:soul_lantern",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:soul_soil",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:soul_sand"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:packed_ice",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sculk_sensor",
+              "Properties": {
+                "power": "0",
+                "sculk_sensor_phase": "inactive",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:sculk_sensor",
+            "Properties": {
+              "sculk_sensor_phase": "inactive",
+              "waterlogged": "false",
+              "power": "0"
+            }
+          },
+          "output_nbt": {"last_vibration_frequency":0}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sculk_sensor",
+              "Properties": {
+                "power": "0",
+                "sculk_sensor_phase": "inactive",
+                "waterlogged": "true"
+              }
+            },
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:sculk_sensor",
+            "Properties": {
+              "power": "0",
+              "sculk_sensor_phase": "inactive",
+              "waterlogged": "true"
+            }
+          },
+          "output_nbt": {"last_vibration_frequency":0}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sculk_shrieker",
+              "Properties": {
+                "waterlogged": "false",
+                "shrieking": "false",
+                "can_summon": "true"
+              }
+            },
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:sculk_shrieker",
+            "Properties": {
+              "can_summon": "true",
+              "shrieking": "false",
+              "waterlogged": "false"
+            }
+          },
+          "output_nbt": {"warning_level":0}
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:air",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dark_oak_button",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -77,6 +77,20 @@
               "waterlogged": "false"
             }
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:air",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          }
         }
       ]
     }

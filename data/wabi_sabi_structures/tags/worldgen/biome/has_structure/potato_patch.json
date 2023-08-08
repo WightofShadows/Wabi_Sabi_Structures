@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:meadow",
+    "minecraft:windswept_hills",
+    {
+        "id": "terralith:forested_highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:lush_valley",
+        "required": false
+    },
+    {
+        "id": "terralith:steppe",
+        "required": false
+    },
+    {
+        "id": "terralith:windswept_spires",
+        "required": false
+    },
+    {
+        "id": "traverse:flatlands",
+        "required": false
+    }
+  ]
+}

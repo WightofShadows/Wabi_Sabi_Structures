@@ -10,6 +10,15 @@
                 "projection": "rigid",
                 "processors": "wabi_sabi_structures:badlands_dwelling"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:badlands_dwelling/small_badlands_dwelling",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:badlands_dwelling"
+            }
         }
     ]
 }

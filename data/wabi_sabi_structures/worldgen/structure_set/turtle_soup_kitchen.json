@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "wabi_sabi_structures:turtle_soup_kitchen",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "spacing": 80,
+        "separation": 40,
+        "salt": 37178504
+    }
+}

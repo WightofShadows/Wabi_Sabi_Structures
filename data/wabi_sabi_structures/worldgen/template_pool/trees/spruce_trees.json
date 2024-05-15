@@ -1,0 +1,39 @@
+{
+    "name": "wabi_sabi_structures:spruce_trees",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/trees/spruce_trees/spruce_tree_1",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/trees/spruce_trees/spruce_tree_2",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/trees/spruce_trees/spruce_tree_3",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+    ]
+}

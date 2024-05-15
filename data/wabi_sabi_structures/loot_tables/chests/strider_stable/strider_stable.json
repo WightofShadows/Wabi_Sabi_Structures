@@ -67,7 +67,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 6,
+          "name": "minecraft:lead"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
           "name": "minecraft:fire_charge",
           "functions": [
             {
@@ -175,18 +180,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:saddle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              },
-              "add": false
-            }
-          ]
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",

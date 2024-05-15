@@ -49,8 +49,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
+                "min": 3,
+                "max": 8
               },
               "add": false
             }
@@ -87,11 +87,6 @@
               "add": false
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:ender_pearl"
         },
         {
           "type": "minecraft:item",

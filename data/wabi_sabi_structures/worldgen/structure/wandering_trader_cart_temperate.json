@@ -4,13 +4,13 @@
     "adapt_noise": true,
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-    "start_pool": "wabi_sabi_structures:wandering_trader_cart_temperate",
-    "size": 7,
+    "start_pool": "wabi_sabi_structures:wandering_trader_cart/wandering_trader_cart_temperate",
+    "size": 5,
     "step": "surface_structures",
     "start_height": {
       "absolute": 0
     },
     "project_start_to_heightmap": "MOTION_BLOCKING",
-    "max_distance_from_center": 50,
-    "use_expansion_hack": false
+    "max_distance_from_center": 70,
+    "use_expansion_hack": true
 }

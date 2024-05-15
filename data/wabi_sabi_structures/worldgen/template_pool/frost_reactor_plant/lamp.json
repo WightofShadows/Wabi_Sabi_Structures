@@ -1,0 +1,39 @@
+{
+    "name": "wabi_sabi_structures:lamp",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 7,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/lamps/lamp_1",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/lamps/lamp_2",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/lamps/lamp_3",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        }
+    ]
+}

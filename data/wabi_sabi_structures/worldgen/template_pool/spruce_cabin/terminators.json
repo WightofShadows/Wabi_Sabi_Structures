@@ -1,0 +1,24 @@
+{
+    "name": "wabi_sabi_structures:terminators",
+    "fallback": "minecraft:empty",
+    "elements": [
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/well",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:spruce_cabin/well"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/cauldron",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        }
+    ]
+}

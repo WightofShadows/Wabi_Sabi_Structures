@@ -1,0 +1,120 @@
+{
+    "name": "wabi_sabi_structures:decor",
+    "fallback": "minecraft:empty",
+    "elements": [
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+		{
+            "weight": 8,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/plants/dead_bush",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/plants/cactus/cactus_1",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/plants/cactus/cactus_2",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/plants/cactus/cactus_3",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/decor/fencing_1",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/decor/fencing_2",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/decor/fencing_3",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/decor/trough",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/decor/rock_1",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/decor/rock_2",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/decor/rock_3",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/decor/rock_4",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

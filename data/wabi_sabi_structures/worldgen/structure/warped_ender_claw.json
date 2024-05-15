@@ -15,7 +15,6 @@
         ]
       }
     },
-	"terrain_adaption": "beard_box",
     "start_pool": "wabi_sabi_structures:warped_ender_claw",
     "size": 7,
     "step": "underground_decoration",

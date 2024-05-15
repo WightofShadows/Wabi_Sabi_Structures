@@ -1,0 +1,24 @@
+{
+  "name": "wabi_sabi_structures:melon_field",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:melon_field/huge_22_melon_patch",
+        "processors": "wabi_sabi_structures:rotten_melons_market"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:melon_field/the_melon_altar",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    }
+  ]
+}

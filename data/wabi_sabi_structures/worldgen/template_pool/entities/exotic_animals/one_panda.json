@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:one_panda",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/exotic_animals/one_panda",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

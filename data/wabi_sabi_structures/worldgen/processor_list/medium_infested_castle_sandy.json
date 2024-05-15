@@ -1,0 +1,790 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:end_portal_frame",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:husk"}}}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:honeycomb_block",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:skeleton"}}}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:honeycomb_block",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"SpawnData":{"entity":{"id":"minecraft:husk"}}}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:honeycomb_block",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:polished_granite"
+          }
+        },	
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:gold_ore",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:raw_gold_block"
+          }
+        },	
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_bricks",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_bricks",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cut_copper",
+            "probability": 0.03
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cut_copper",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cut_copper",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:stone_bricks"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:smooth_red_sandstone",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cut_red_sandstone",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:acacia_fence_gate",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:acacia_sign",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:barrel",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:ladder",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cobweb",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:redstone_torch",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:daylight_detector",
+            "probability": 0.75
+          },
+          "output_state": {
+            "Name": "minecraft:acacia_slab"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_sandstone_wall",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:acacia_trapdoor",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:potted_dead_bush",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:decorated_pot",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dispenser",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:cobblestone_slab"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:beehive",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:oak_planks"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:suspicious_sand",
+            "probability": 0.77
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:orange_wool",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:orange_wool",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_slab"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:orange_wool",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:orange_wool",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:brown_carpet",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:sand"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:brown_carpet",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:hanging_roots",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:lever",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:terracotta",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:terracotta",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:polished_granite"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:terracotta",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:polished_granite",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:pumpkin",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:mangrove_roots"
+          }
+        },
+		{
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_candle",
+            "probability": 0.10
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_candle",
+            "probability": 0.30
+          },
+          "output_state": {
+            "Name": "minecraft:red_candle",
+            "Properties": {
+              "candles": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_candle",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:red_candle",
+            "Properties": {
+              "candles": "3"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_candle",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:red_candle",
+            "Properties": {
+              "candles": "4"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smoker",
+              "Properties": {
+                "facing": "east"
+              }
+            },
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:smoker",
+            "Properties": {
+              "facing": "east"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":2,"id":"minecraft:cooked_rabbit","Count":1}]}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smoker",
+              "Properties": {
+                "facing": "east"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:smoker",
+            "Properties": {
+              "facing": "east"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":0,"id":"minecraft:raw_rabbit","Count":2}]}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smoker",
+              "Properties": {
+                "facing": "east"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:smoker",
+            "Properties": {
+              "facing": "east"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:coal","Count":1}]}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smoker",
+              "Properties": {
+                "facing": "east"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:smoker",
+            "Properties": {
+              "facing": "east"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:coal","Count":3}]}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:blast_furnace",
+              "Properties": {
+                "facing": "south"
+              }
+            },
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:blast_furnace",
+            "Properties": {
+              "facing": "south"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":2,"id":"minecraft:iron_ingot","Count":1}]}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:blast_furnace",
+              "Properties": {
+                "facing": "south"
+              }
+            },
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:blast_furnace",
+            "Properties": {
+              "facing": "south"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":0,"id":"minecraft:raw_iron","Count":2}]}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:blast_furnace",
+              "Properties": {
+                "facing": "south"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:blast_furnace",
+            "Properties": {
+              "facing": "south"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:coal","Count":4}]}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:blast_furnace",
+              "Properties": {
+                "facing": "south"
+              }
+            },
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:blast_furnace",
+            "Properties": {
+              "facing": "south"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {"Items":[{"Slot":1,"id":"minecraft:lava_bucket","Count":1}]}
+          }
+        }
+      ]
+    }
+  ]
+}

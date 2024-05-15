@@ -1,0 +1,78 @@
+{
+    "name": "wabi_sabi_structures:roads",
+    "fallback": "wabi_sabi_structures:spruce_cabin/terminators",
+    "elements": [
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/teeny_segment",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/straight_road",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/left_road",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/right_road",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        },
+		{
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/left_corner_road",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        },
+		{
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/right_corner_road",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        },
+		{
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/split_road",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/roads/180_road",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:spruce_cabin/roads"
+            }
+        }
+    ]
+}

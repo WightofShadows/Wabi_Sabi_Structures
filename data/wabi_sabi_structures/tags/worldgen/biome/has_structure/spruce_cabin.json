@@ -2,21 +2,12 @@
   "replace": false,
   "values": [
     "minecraft:taiga",
-    "minecraft:snowy_taiga",
 	{
 		"id": "traverse:coniferous_forest",
 		"required": false
 	},
 	{
 		"id": "terrestria:hemlock_treeline",
-		"required": false
-	},
-	{
-		"id": "terrestria:snowy_hemlock_treeline",
-		"required": false
-	},
-	{
-		"id": "terralith:alpine_grove",
 		"required": false
 	},
 	{

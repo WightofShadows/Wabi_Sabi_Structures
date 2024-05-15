@@ -9,7 +9,7 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:grass",
+            "block": "minecraft:short_grass",
             "probability": 0.66
           },
           "output_state": {
@@ -22,7 +22,7 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:grass",
+            "block": "minecraft:short_grass",
             "probability": 0.66
           },
           "output_state": {

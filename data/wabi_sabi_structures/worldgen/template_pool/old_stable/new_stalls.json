@@ -1,0 +1,24 @@
+{
+  "name": "wabi_sabi_structures:new_stalls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:old_stable/new_stalls/new_stall_1",
+        "processors": "wabi_sabi_structures:new_stable"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:old_stable/new_stalls/new_stall_2",
+        "processors": "wabi_sabi_structures:new_stable"
+      }
+    }
+  ]
+}

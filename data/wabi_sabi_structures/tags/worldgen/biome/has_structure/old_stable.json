@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:savanna",
     "minecraft:plains",
 	{
 		"id": "traverse:desert_shrubland",

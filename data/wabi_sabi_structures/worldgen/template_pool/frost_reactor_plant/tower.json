@@ -1,0 +1,21 @@
+{
+    "name": "wabi_sabi_structures:tower",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/tower",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        }
+    ]
+}

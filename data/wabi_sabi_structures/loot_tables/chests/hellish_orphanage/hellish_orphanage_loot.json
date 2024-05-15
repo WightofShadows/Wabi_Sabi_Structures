@@ -146,7 +146,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 7,
           "name": "minecraft:iron_nugget",
           "functions": [
             {
@@ -162,7 +162,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 6,
           "name": "minecraft:iron_ingot",
           "functions": [
             {
@@ -175,11 +175,6 @@
               "add": false
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:diamond"
         },
         {
           "type": "minecraft:item",

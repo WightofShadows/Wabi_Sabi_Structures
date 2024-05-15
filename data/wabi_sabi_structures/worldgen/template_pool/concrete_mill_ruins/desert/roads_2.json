@@ -1,0 +1,69 @@
+{
+    "name": "wabi_sabi_structures:roads_2",
+    "fallback": "wabi_sabi_structures:concrete_mill_ruins/desert/terminators",
+    "elements": [
+		{
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/roads/desert_road_2_1",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/roads"
+            }
+        },
+		{
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/roads/desert_road_2_2",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/roads"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/roads/desert_road_2_3",
+                "projection":  "terrain_matching",
+                "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/roads"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/roads/mill_addition_1",
+                "projection":  "rigid",
+                "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/mill_additions"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/roads/mill_addition_2",
+                "projection":  "rigid",
+                "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/mill_additions"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/roads/mill_addition_3",
+                "projection":  "rigid",
+                "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/mill_additions"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:concrete_mill_ruins/desert/roads/mill_addition_4",
+                "projection":  "rigid",
+                "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/mill_additions"
+            }
+        }
+    ]
+}

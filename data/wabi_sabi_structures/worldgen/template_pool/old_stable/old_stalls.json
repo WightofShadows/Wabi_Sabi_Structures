@@ -1,0 +1,33 @@
+{
+  "name": "wabi_sabi_structures:old_stalls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:old_stable/old_stalls/old_stall_1",
+        "processors": "wabi_sabi_structures:old_stable"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:old_stable/old_stalls/old_stall_2",
+        "processors": "wabi_sabi_structures:old_stable"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wabi_sabi_structures:old_stable/old_stalls/old_stall_3",
+        "processors": "wabi_sabi_structures:old_stable"
+      }
+    }
+  ]
+}

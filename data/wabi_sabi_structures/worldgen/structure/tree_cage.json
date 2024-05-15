@@ -3,7 +3,6 @@
     "biomes": "#wabi_sabi_structures:has_structure/tree_cage",
     "adapt_noise": true,
 	"spawn_overrides": {},
-	"terrain_adaption": "beard_box",
     "start_pool": "wabi_sabi_structures:tree_cage",
     "size": 7,
     "step": "surface_structures",

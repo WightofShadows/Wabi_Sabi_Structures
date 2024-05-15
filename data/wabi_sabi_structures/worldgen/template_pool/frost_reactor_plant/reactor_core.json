@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:reactor_core",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/core",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        }
+    ]
+}

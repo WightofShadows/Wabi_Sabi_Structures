@@ -1,0 +1,96 @@
+{
+  "name": "wabi_sabi_structures:melon_patch",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/medium_11_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/medium_9_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/medium_8_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/small_19_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/small_6_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/small_5_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/tiny_4_melon_patch_2",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/tiny_4_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/tiny_3_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "wabi_sabi_structures:melon_patch/tiny_2_melon_patch",
+        "processors": "wabi_sabi_structures:melon_patch"
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+    "name": "wabi_sabi_structures:decor",
+    "fallback": "minecraft:empty",
+    "elements": [
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/berry_bush",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/brown_mushroom",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/poppy",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/dandelion",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/fern",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/rose_bush",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/lantern",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/spruce_lamp_post",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/spruce_bench",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/potted_brown_mushroom",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/potted_dandelion",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/potted_lily_of_the_valley",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/potted_poppy",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/tall_fern",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:spruce_cabin/decor/tall_grass",
+                "projection":  "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

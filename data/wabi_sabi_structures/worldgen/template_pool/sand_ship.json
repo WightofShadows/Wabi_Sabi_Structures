@@ -1,0 +1,24 @@
+{
+    "name": "wabi_sabi_structures:sand_ship",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:sand_ship/fresh_sand_ship",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:fresh_sand_ship"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:sand_ship/tarnished_sand_ship",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:tarnished_sand_ship"
+            }
+        }
+    ]
+}

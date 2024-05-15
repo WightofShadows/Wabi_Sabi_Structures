@@ -78,7 +78,7 @@
             "probability": 0.2
           },
           "output_state": {
-            "Name": "minecraft:grass"
+            "Name": "minecraft:short_grass"
           }
         },
         {

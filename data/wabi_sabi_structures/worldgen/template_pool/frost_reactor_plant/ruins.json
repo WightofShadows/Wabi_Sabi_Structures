@@ -1,0 +1,48 @@
+{
+    "name": "wabi_sabi_structures:ruins",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/ruins/ruins_1",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/ruins/ruins_2",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/ruins/ruins_3",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:frost_reactor_plant/ruins/ruins_4",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:frost_reactor_plant"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "wabi_sabi_structures:tanning_rack",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/tanning_racks/oak_tanning_rack_1",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/tanning_racks/oak_tanning_rack_2",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/tanning_racks/oak_tanning_rack_3",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/tanning_racks/oak_tanning_rack_4",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/tanning_racks/oak_tanning_rack_5",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/tanning_racks/oak_tanning_rack_6",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        }
+    ]
+}

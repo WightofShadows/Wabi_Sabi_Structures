@@ -1,0 +1,93 @@
+{
+    "name": "wabi_sabi_structures:additions",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 9,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/howler_rock_1",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/howler_rock_2",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/howler_rock_3",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/howler_bone_1",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/howler_bone_2",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/howler_bone_banner",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/supplies",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/empty_rack",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/additions/crude_light",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        }
+    ]
+}

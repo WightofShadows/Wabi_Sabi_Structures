@@ -10,8 +10,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
           "name": "minecraft:paper",
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -26,45 +26,45 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:bamboo",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:map"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:sugar_cane",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:bamboo_planks",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -79,8 +79,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:redstone",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -107,8 +107,8 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Flight:1b}}"
+              "function": "minecraft:set_fireworks",
+              "flight_duration": 1
             },
             {
               "function": "minecraft:set_count",
@@ -126,8 +126,8 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Flight:2b}}"
+              "function": "minecraft:set_fireworks",
+              "flight_duration": 2
             },
             {
               "function": "minecraft:set_count",
@@ -145,8 +145,8 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Flight:3b}}"
+              "function": "minecraft:set_fireworks",
+              "flight_duration": 3
             },
             {
               "function": "minecraft:set_count",
@@ -166,8 +166,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:crossbow",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -228,8 +228,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:glowstone_dust",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -244,8 +244,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:feather",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -260,8 +260,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:gold_nugget",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",

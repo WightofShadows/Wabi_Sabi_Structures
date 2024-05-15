@@ -191,6 +191,187 @@
             "type": "minecraft:append_static",
             "data": {"Items":[{"Slot":1,"id":"minecraft:charcoal","Count":5}]}
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:potted_oak_sapling"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:potted_birch_sapling"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:potted_spruce_sapling"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:potted_jungle_sapling"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:potted_dark_oak_sapling"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:potted_acacia_sapling"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:potted_cherry_sapling"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:potted_mangrove_propagule"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:potted_azalea_bush"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:flower_pot",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:potted_flowering_azalea_bush"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:light_blue_candle",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:light_blue_candle",
+            "Properties": {
+              "candles": "4",
+              "lit": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:light_blue_candle",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:light_blue_candle",
+            "Properties": {
+              "candles": "3",
+              "lit": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:light_blue_candle",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:light_blue_candle",
+            "Properties": {
+              "candles": "2",
+              "lit": "true"
+            }
+          }
         }
       ]
     }

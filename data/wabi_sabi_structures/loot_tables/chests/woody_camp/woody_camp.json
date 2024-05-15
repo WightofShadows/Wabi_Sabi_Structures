@@ -162,17 +162,6 @@
           "type": "minecraft:item",
           "weight": 3,
           "name": "minecraft:map"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:goat_horn",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{instrument:\"seek_goat_horn\"}"
-            }
-          ]
         }
       ]
     }

@@ -1,0 +1,39 @@
+{
+    "name": "wabi_sabi_structures:persistent_rarely_strider",
+    "fallback": "minecraft:empty",
+    "elements": [
+		{
+			"weight": 36,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/nether/animals/persistent_strider",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/nether/animals/persistent_baby_strider",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/nether/animals/persistent_saddled_strider",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

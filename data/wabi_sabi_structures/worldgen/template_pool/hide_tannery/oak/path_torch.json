@@ -1,0 +1,21 @@
+{
+    "name": "wabi_sabi_structures:path_torch",
+    "fallback": "minecraft:empty",
+    "elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/additions/torch_pole",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        }
+    ]
+}

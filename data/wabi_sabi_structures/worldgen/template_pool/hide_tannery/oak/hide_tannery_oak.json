@@ -1,0 +1,15 @@
+{
+    "name": "wabi_sabi_structures:hide_tannery_oak",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/hide_tannery_oak",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "name": "wabi_sabi_structures:horse",
+    "name": "wabi_sabi_structures:sometimes_horse",
     "fallback": "minecraft:empty",
     "elements": [
 		{
@@ -12,7 +12,7 @@
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:generic_jigsaws/entities/farm_animals/one_horse",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/farm_animals/horse",
                 "projection":  "terrain_matching",
                 "processors": "minecraft:empty"
             }

@@ -1,0 +1,75 @@
+{
+    "name": "wabi_sabi_structures:paths",
+    "fallback": "minecraft:empty",
+    "elements": [
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/path/path_straight",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/path/path_curve_left",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/path/path_curve_right",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/path/path_turn_left",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/path/path_turn_right",
+                "projection": "terrain_matching",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/path/path_water_tower",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:hide_tannery/oak/path/path_armadillo_pen",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:hide_tannery_oak"
+            }
+        }
+    ]
+}

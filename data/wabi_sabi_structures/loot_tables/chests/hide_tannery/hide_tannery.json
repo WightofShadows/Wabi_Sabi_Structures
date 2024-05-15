@@ -4,30 +4,55 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
         "min": 2,
         "max": 4
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:oak_wood",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:leather",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -42,8 +67,24 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "name": "minecraft:leather",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:rabbit_hide",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -58,8 +99,24 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
           "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:potion",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_potion",
@@ -86,28 +143,28 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:leather_helmet"
+          "name": "minecraft:leather_helmet",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:leather_chestplate"
+          "name": "minecraft:leather_chestplate",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:leather_leggings"
+          "name": "minecraft:leather_leggings",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:leather_boots"
+          "name": "minecraft:leather_boots",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:shears",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -122,13 +179,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:leather_horse_armor"
+          "name": "minecraft:leather_horse_armor",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:saddle"
+          "name": "minecraft:saddle",
+          "weight": 1
         }
       ]
     }

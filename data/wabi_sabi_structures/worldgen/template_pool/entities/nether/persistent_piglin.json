@@ -1,0 +1,33 @@
+{
+    "name": "wabi_sabi_structures:persistent_piglin",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/nether/piglins/persistent_sword_piglin",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/nether/piglins/persistent_crossbow_piglin",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/nether/piglins/persistent_baby_piglin",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

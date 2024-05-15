@@ -1,0 +1,48 @@
+{
+    "name": "wabi_sabi_structures:kennels",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/kennels/kennel",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/kennels/pen_kennel",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/kennels/tower_kennel",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:howlers_garrison/kennels/traitors_hut",
+                "projection": "rigid",
+                "processors": "wabi_sabi_structures:howlers_garrison"
+            }
+        }
+    ]
+}

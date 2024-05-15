@@ -10,8 +10,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:book",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -26,29 +26,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:writable_book"
+          "name": "minecraft:writable_book",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:item_frame",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:painting",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -63,8 +47,24 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "name": "minecraft:painting",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:cobweb",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -79,8 +79,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:copper_ingot",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -95,8 +95,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:iron_ingot",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -111,13 +111,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:diamond"
+          "name": "minecraft:diamond",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:lapis_lazuli",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -132,8 +132,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:emerald",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -148,8 +148,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:prismarine_crystals",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -164,13 +164,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:glow_item_frame"
+          "name": "minecraft:glow_item_frame",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:gold_ingot",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -190,38 +190,38 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:music_disc_cat"
+          "name": "minecraft:music_disc_cat",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:music_disc_stal"
+          "name": "minecraft:music_disc_stal",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:music_disc_otherside"
+          "name": "minecraft:music_disc_otherside",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:music_disc_chirp"
+          "name": "minecraft:music_disc_chirp",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:flower_banner_pattern"
+          "name": "minecraft:flower_banner_pattern",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:mojang_banner_pattern"
+          "name": "minecraft:mojang_banner_pattern",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:iron_axe",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -252,8 +252,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:iron_sword",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -266,7 +266,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:sweeping": {
+                "minecraft:sweeping_edge": {
                   "type": "minecraft:uniform",
                   "min": 1,
                   "max": 3
@@ -285,12 +285,25 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:leather_helmet",
+          "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:raiser\"},display:{color:12479015}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": {
+                  "rgb": 12479015
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:raiser"
+                }
+              }
             },
             {
               "function": "minecraft:set_damage",
@@ -312,12 +325,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:golden_chestplate",
+          "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:host\"}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:iron",
+                  "pattern": "minecraft:host",
+                  "show_in_tooltip": true
+                }
+              }
             },
             {
               "function": "minecraft:set_damage",
@@ -339,12 +358,25 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:leather_leggings",
+          "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Trim:{material:\"minecraft:copper\",pattern:\"minecraft:wayfinder\"},display:{color:3044727}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": {
+                  "rgb": 3044727
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
             },
             {
               "function": "minecraft:set_damage",
@@ -366,12 +398,17 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:chainmail_boots",
+          "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:shaper\"}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:shaper"
+                }
+              }
             },
             {
               "function": "minecraft:set_damage",

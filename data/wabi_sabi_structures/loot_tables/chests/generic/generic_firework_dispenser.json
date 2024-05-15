@@ -13,8 +13,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;11743532],Type:0b}],Flight:1b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    11743532
+                  ]
+                }]
+              },
+              "flight_duration": 1
             }
           ]
         },
@@ -23,8 +31,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;11743532],Type:0b}],Flight:2b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    11743532
+                  ]
+                }]
+              },
+              "flight_duration": 2
             }
           ]
         },
@@ -33,8 +49,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;11743532],Type:0b}],Flight:3b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    11743532
+                  ]
+                }]
+              },
+              "flight_duration": 3
             }
           ]
         },
@@ -43,8 +67,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;2437522],Type:0b}],Flight:1b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    2437522
+                  ]
+                }]
+              },
+              "flight_duration": 1
             }
           ]
         },
@@ -53,8 +85,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;2437522],Type:0b}],Flight:2b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    2437522
+                  ]
+                }]
+              },
+              "flight_duration": 2
             }
           ]
         },
@@ -63,8 +103,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;2437522],Type:0b}],Flight:3b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    2437522
+                  ]
+                }]
+              },
+              "flight_duration": 3
             }
           ]
         },
@@ -73,8 +121,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;3887386],Type:0b}],Flight:1b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    3887386
+                  ]
+                }]
+              },
+              "flight_duration": 1
             }
           ]
         },
@@ -83,8 +139,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;3887386],Type:0b}],Flight:2b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    3887386
+                  ]
+                }]
+              },
+              "flight_duration": 2
             }
           ]
         },
@@ -93,8 +157,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;3887386],Type:0b}],Flight:3b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    3887386
+                  ]
+                }]
+              },
+              "flight_duration": 3
             }
           ]
         },
@@ -103,8 +175,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;14602026],Type:0b}],Flight:1b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    14602026
+                  ]
+                }]
+              },
+              "flight_duration": 1
             }
           ]
         },
@@ -113,8 +193,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;14602026],Type:0b}],Flight:2b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    14602026
+                  ]
+                }]
+              },
+              "flight_duration": 2
             }
           ]
         },
@@ -123,8 +211,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;14602026],Type:0b}],Flight:3b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    14602026
+                  ]
+                }]
+              },
+              "flight_duration": 3
             }
           ]
         },
@@ -133,8 +229,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;2651799],Type:0b}],Flight:1b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    2651799
+                  ]
+                }]
+              },
+              "flight_duration": 1
             }
           ]
         },
@@ -143,8 +247,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;2651799],Type:0b}],Flight:2b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    2651799
+                  ]
+                }]
+              },
+              "flight_duration": 2
             }
           ]
         },
@@ -153,8 +265,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;2651799],Type:0b}],Flight:3b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    2651799
+                  ]
+                }]
+              },
+              "flight_duration": 3
             }
           ]
         },
@@ -163,8 +283,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;12801229],Type:0b}],Flight:1b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    12801229
+                  ]
+                }]
+              },
+              "flight_duration": 1
             }
           ]
         },
@@ -173,8 +301,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;12801229],Type:0b}],Flight:2b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    12801229
+                  ]
+                }]
+              },
+              "flight_duration": 2
             }
           ]
         },
@@ -183,8 +319,16 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Explosions:[{Colors:[I;12801229],Type:0b}],Flight:3b}}"
+              "function": "minecraft:set_fireworks",
+              "explosions": {
+                "values": [{
+                  "shape": "small_ball",
+                  "colors": [
+                    12801229
+                  ]
+                }]
+              },
+              "flight_duration": 3
             }
           ]
         }

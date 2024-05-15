@@ -320,8 +320,10 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{instrument:\"seek_goat_horn\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:instrument": "minecraft:seek_goat_horn"
+              }
             }
           ]
         }

@@ -212,7 +212,7 @@
             "probability": 0.05
           },
           "output_state": {
-            "Name": "minecraft:potted_azalea"
+            "Name": "minecraft:potted_azalea_bush"
           }
         },
         {
@@ -225,7 +225,7 @@
             "probability": 0.05
           },
           "output_state": {
-            "Name": "minecraft:potted_flowering_azalea"
+            "Name": "minecraft:potted_flowering_azalea_bush"
           }
         },
         {

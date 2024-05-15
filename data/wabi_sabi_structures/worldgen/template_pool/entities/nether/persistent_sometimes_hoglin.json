@@ -1,0 +1,30 @@
+{
+    "name": "wabi_sabi_structures:persistent_sometimes_hoglin",
+    "fallback": "minecraft:empty",
+    "elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/nether/animals/persistent_hoglin",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/nether/animals/persistent_baby_hoglin",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

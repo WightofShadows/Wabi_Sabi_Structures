@@ -14,8 +14,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:spruce_sapling",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -30,8 +30,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:dark_oak_sapling",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -46,8 +46,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:podzol",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -71,8 +71,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
           "name": "minecraft:snowball",
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -87,8 +87,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
           "name": "minecraft:glow_lichen",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -103,8 +103,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
           "name": "minecraft:pumpkin",
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -132,8 +132,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:sugar_cane",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -148,8 +148,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:jack_o_lantern",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -164,8 +164,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:blue_ice",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -193,24 +193,24 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:brown_mushroom",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:red_mushroom",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -225,24 +225,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:brown_mushroom_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:red_mushroom_block",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -257,13 +241,29 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:crimson_fungus"
+          "name": "minecraft:red_mushroom_block",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:warped_fungus"
+          "name": "minecraft:crimson_fungus",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus",
+          "weight": 1
         }
       ]
     },
@@ -276,8 +276,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:stripped_spruce_wood",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -292,8 +292,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:stripped_dark_oak_wood",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -317,23 +317,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:hay_block"
+          "name": "minecraft:hay_block",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:melon"
+          "name": "minecraft:melon",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:dried_kelp_block"
+          "name": "minecraft:dried_kelp_block",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:potato",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -348,24 +348,24 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:carrot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:beetroot",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -380,24 +380,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:sweet_berries",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:glow_berries",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -412,12 +396,53 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:chorus_fruit"
+          "name": "minecraft:glow_berries",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "weight": 1
         },
         {
           "type": "minecraft:empty",
           "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
         }
       ]
     }

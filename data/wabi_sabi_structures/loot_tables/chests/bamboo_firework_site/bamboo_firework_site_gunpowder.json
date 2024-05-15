@@ -10,8 +10,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
           "name": "minecraft:gunpowder",
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -26,8 +26,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:gray_concrete_powder",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -42,13 +42,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:tnt"
+          "name": "minecraft:tnt",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:fire_charge",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -75,8 +75,11 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Explosion:{Colors:[I;11743532],Type:0b}}"
+              "function": "minecraft:set_firework_explosion",
+              "shape": "small_ball",
+              "colors": [
+                11743532
+              ]
             }
           ]
         },
@@ -85,8 +88,11 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Explosion:{Colors:[I;2437522],Type:0b}}"
+              "function": "minecraft:set_firework_explosion",
+              "shape": "small_ball",
+              "colors": [
+                2437522
+              ]
             }
           ]
         },
@@ -95,8 +101,11 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Explosion:{Colors:[I;3887386],Type:0b}}"
+              "function": "minecraft:set_firework_explosion",
+              "shape": "small_ball",
+              "colors": [
+                3887386
+              ]
             }
           ]
         }
@@ -111,13 +120,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:creeper_banner_pattern"
+          "name": "minecraft:creeper_banner_pattern",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:creeper_head"
+          "name": "minecraft:creeper_head",
+          "weight": 1
         }
       ]
     }

@@ -1,5 +1,6 @@
 ![alt text](https://i.imgur.com/1EiT59N.png)
 ### Visit on Curseforge here: [Forge](https://www.curseforge.com/minecraft/mc-mods/wabi-sabi-structures-forge) | [Fabric](https://www.curseforge.com/minecraft/mc-mods/wabi-sabi-structures-fabric) | [Datapack](https://www.curseforge.com/minecraft/texture-packs/wabi-sabi-structures-datapack)
+### Visit on Modrinth [here](https://modrinth.com/datapack/wabi-sabi-structures)
 ### Consider joining our community on [Discord](https://discord.gg/xJZbkfPrxJ) for updates, to make suggestions, or to share your structure screenshots!
 
 Wabi-Sabi Structures adds a plethora of new structures that generate throughout your Minecraft world, all designed with the Japanese philosophy of "Wabi-Sabi" in mind - embracing imperfection while still being aesthetically interesting.

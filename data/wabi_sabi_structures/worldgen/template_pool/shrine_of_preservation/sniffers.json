@@ -1,0 +1,30 @@
+{
+    "name": "wabi_sabi_structures:sniffers",
+    "fallback": "minecraft:empty",
+    "elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+		{
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/misc/sniffer_egg",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+		{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/exotic_animals/baby_sniffer",
+                "projection":  "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

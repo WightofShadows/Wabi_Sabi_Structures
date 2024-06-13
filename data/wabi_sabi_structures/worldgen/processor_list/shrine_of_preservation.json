@@ -2,10 +2,7 @@
   "processors": [
     {
       "processor_type": "minecraft:capped",
-      "limit": {
-        "type": "minecraft:constant",
-        "value": 1
-      },
+      "limit": 18,
       "delegate": {
         "processor_type": "minecraft:rule",
         "rules": [
@@ -15,11 +12,15 @@
             },
             "input_predicate": {
               "predicate_type": "minecraft:random_block_match",
-              "block": "minecraft:lapis_block",
+              "block": "minecraft:sand",
               "probability": 1
             },
             "output_state": {
-              "Name": "minecraft:diamond_block"
+              "Name": "minecraft:suspicious_sand"
+            },
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "wabi_sabi_structures:archaeology/shrine_of_preservation/shrine_of_preservation_sandpit"
             }
           }
         ]
@@ -30,57 +31,15 @@
       "rules": [
         {
           "location_predicate": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:end_stone"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:end_rod",
-            "probability": 1
-          },
-          "output_state": {
-            "Name": "minecraft:end_stone"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:end_stone"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:purple_stained_glass_pane",
-            "probability": 1
-          },
-          "output_state": {
-            "Name": "minecraft:end_stone"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:end_stone"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:black_stained_glass_pane",
-            "probability": 1
-          },
-          "output_state": {
-            "Name": "minecraft:end_stone"
-          }
-        },
-        {
-          "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:lapis_block",
+            "block": "minecraft:azalea",
             "probability": 0.35
           },
           "output_state": {
-            "Name": "minecraft:pearlescent_froglight"
+            "Name": "minecraft:flowering_azalea"
           }
         },
         {
@@ -89,11 +48,14 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:lapis_block",
+            "block": "minecraft:azalea_leaves",
             "probability": 0.35
           },
           "output_state": {
-            "Name": "minecraft:verdant_froglight"
+            "Name": "minecraft:flowering_azalea_leaves",
+            "Properties": {
+              "persistent": "true"
+            }
           }
         },
         {
@@ -102,11 +64,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:lapis_block",
-            "probability": 0.3
+            "block": "minecraft:vine",
+            "probability": 0.18
           },
           "output_state": {
-            "Name": "minecraft:amethyst_block"
+            "Name": "minecraft:air"
           }
         },
         {
@@ -115,11 +77,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:lapis_block",
-            "probability": 0.1
+            "block": "minecraft:hanging_roots",
+            "probability": 0.22
           },
           "output_state": {
-            "Name": "minecraft:budding_amethyst"
+            "Name": "minecraft:air"
           }
         },
         {
@@ -128,11 +90,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:lapis_block",
-            "probability": 0.1
+            "block": "minecraft:short_grass",
+            "probability": 0.5
           },
           "output_state": {
-            "Name": "minecraft:diamond_block"
+            "Name": "minecraft:fern"
           }
         },
         {
@@ -141,11 +103,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:obsidian",
+            "block": "minecraft:red_concrete",
             "probability": 0.2
           },
           "output_state": {
-            "Name": "minecraft:crying_obsidian"
+            "Name": "minecraft:red_terracotta"
           }
         },
         {
@@ -154,11 +116,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:purple_stained_glass_pane",
-            "probability": 0.25
+            "block": "minecraft:red_terracotta",
+            "probability": 0.1
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "Name": "minecraft:red_concrete"
           }
         },
         {
@@ -167,24 +129,11 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:black_stained_glass_pane",
-            "probability": 0.25
+            "block": "minecraft:green_stained_glass",
+            "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:air"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:end_rod",
-            "probability": 0.25
-          },
-          "output_state": {
-            "Name": "minecraft:air"
+            "Name": "minecraft:lime_stained_glass"
           }
         }
       ]

@@ -1,0 +1,16 @@
+{
+    "structures": [
+        {
+            "structure": "wabi_sabi_structures:shrine_of_preservation",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "concentric_rings",
+        "distance": 24,
+        "count": 256,
+        "spread": 5,
+        "preferred_biomes": "minecraft:lush_caves",
+		"salt": 42783567
+    }
+}

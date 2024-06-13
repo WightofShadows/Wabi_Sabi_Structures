@@ -1,21 +1,41 @@
 {
   "processors": [
     {
+      "processor_type": "minecraft:capped",
+      "limit": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:skeleton_skull",
+                "Properties": {
+                  "rotation": "4"
+                }
+              },
+              "probability": 1
+            },
+            "output_state": {
+              "Name": "minecraft:wither_skeleton_skull",
+              "Properties": {
+                "rotation": "4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
       "processor_type": "minecraft:rule",
       "rules": [
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wither_skeleton_skull",
-            "probability": 0.75
-          },
-          "output_state": {
-            "Name": "minecraft:air"
-          }
-        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -257,7 +277,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:raw_gold_block",
-            "probability": 0.1
+            "probability": 0.35
           },
           "output_state": {
             "Name": "minecraft:nether_gold_ore"
@@ -270,7 +290,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:raw_gold_block",
-            "probability": 0.35
+            "probability": 0.25
           },
           "output_state": {
             "Name": "minecraft:gold_block"

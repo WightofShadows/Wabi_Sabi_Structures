@@ -1,6 +1,31 @@
 {
   "processors": [
     {
+      "processor_type": "minecraft:capped",
+      "limit": {
+        "type": "minecraft:constant",
+        "value": 2
+      },
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:anvil",
+              "probability": 1
+            },
+            "output_state": {
+              "Name": "minecraft:smooth_stone"
+            }
+          }
+        ]
+      }
+    },
+    {
       "processor_type": "minecraft:rule",
       "rules": [
         {
@@ -10,7 +35,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:anvil",
-            "probability": 0.7
+            "probability": 0.25
           },
           "output_state": {
             "Name": "minecraft:smooth_stone"

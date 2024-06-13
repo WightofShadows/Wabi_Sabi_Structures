@@ -1,6 +1,44 @@
 {
   "processors": [
     {
+      "processor_type": "minecraft:capped",
+      "limit": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:gold_ore",
+              "probability": 0.5
+            },
+            "output_state": {
+              "Name": "minecraft:diamond_ore"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:gold_ore",
+              "probability": 0.5
+            },
+            "output_state": {
+              "Name": "minecraft:gold_block"
+            }
+          }
+        ]
+      }
+    },
+    {
       "processor_type": "minecraft:rule",
       "rules": [
         {
@@ -40,33 +78,7 @@
             "probability": 0.03
           },
           "output_state": {
-            "Name": "minecraft:emerald_block"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:gold_ore",
-            "probability": 0.03
-          },
-          "output_state": {
-            "Name": "minecraft:diamond_ore"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:gold_ore",
-            "probability": 0.05
-          },
-          "output_state": {
-            "Name": "minecraft:iron_block"
+            "Name": "minecraft:deepslate_emerald_ore"
           }
         },
         {
@@ -80,32 +92,6 @@
           },
           "output_state": {
             "Name": "minecraft:emerald_ore"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:gold_ore",
-            "probability": 0.10
-          },
-          "output_state": {
-            "Name": "minecraft:gold_block"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:gold_ore",
-            "probability": 0.25
-          },
-          "output_state": {
-            "Name": "minecraft:iron_ore"
           }
         },
         {

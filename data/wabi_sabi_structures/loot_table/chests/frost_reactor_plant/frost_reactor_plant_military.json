@@ -116,7 +116,7 @@
                 "min": 5,
                 "max": 15
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             },
             {
               "function": "minecraft:set_damage",
@@ -140,7 +140,7 @@
                 "min": 5,
                 "max": 15
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             },
             {
               "function": "minecraft:set_damage",
@@ -164,7 +164,7 @@
                 "min": 5,
                 "max": 15
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             },
             {
               "function": "minecraft:set_damage",
@@ -188,7 +188,7 @@
                 "min": 5,
                 "max": 15
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             },
             {
               "function": "minecraft:set_damage",
@@ -212,7 +212,7 @@
                 "min": 5,
                 "max": 15
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             },
             {
               "function": "minecraft:set_damage",
@@ -236,7 +236,7 @@
                 "min": 5,
                 "max": 15
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             },
             {
               "function": "minecraft:set_damage",

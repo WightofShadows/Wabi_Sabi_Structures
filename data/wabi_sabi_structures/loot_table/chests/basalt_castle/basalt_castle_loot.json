@@ -120,7 +120,7 @@
                 "min": 15,
                 "max": 30
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -146,7 +146,7 @@
                 "min": 15,
                 "max": 30
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -172,7 +172,7 @@
                 "min": 15,
                 "max": 30
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -198,7 +198,7 @@
                 "min": 15,
                 "max": 30
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },

@@ -246,7 +246,7 @@
                 "type": "minecraft:constant",
                 "value": 12
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             }
           ]
         },
@@ -279,7 +279,7 @@
                 "type": "minecraft:constant",
                 "value": 12
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             }
           ]
         },
@@ -319,7 +319,7 @@
                 "type": "minecraft:constant",
                 "value": 12
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             }
           ]
         },
@@ -352,7 +352,7 @@
                 "type": "minecraft:constant",
                 "value": 12
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             }
           ]
         },
@@ -392,7 +392,7 @@
                 "type": "minecraft:constant",
                 "value": 12
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             }
           ]
         },
@@ -424,7 +424,7 @@
                 "type": "minecraft:constant",
                 "value": 12
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             }
           ]
         }

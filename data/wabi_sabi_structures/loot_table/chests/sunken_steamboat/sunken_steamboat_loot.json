@@ -148,7 +148,7 @@
                 "min": 10,
                 "max": 30
               },
-              "treasure": false
+              "options": "#minecraft:non_treasure"
             }
           ]
         }

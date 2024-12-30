@@ -15,12 +15,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    11743532
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      11743532
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 1
             }
@@ -33,12 +36,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    11743532
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      11743532
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 2
             }
@@ -51,12 +57,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    11743532
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      11743532
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 3
             }
@@ -69,12 +78,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    2437522
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      2437522
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 1
             }
@@ -87,12 +99,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    2437522
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      2437522
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 2
             }
@@ -105,12 +120,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    2437522
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      2437522
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 3
             }
@@ -123,12 +141,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    3887386
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      3887386
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 1
             }
@@ -141,12 +162,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    3887386
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      3887386
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 2
             }
@@ -159,12 +183,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    3887386
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      3887386
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 3
             }
@@ -177,12 +204,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    14602026
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      14602026
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 1
             }
@@ -195,12 +225,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    14602026
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      14602026
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 2
             }
@@ -213,12 +246,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    14602026
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      14602026
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 3
             }
@@ -231,12 +267,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    2651799
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      2651799
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 1
             }
@@ -249,12 +288,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    2651799
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      2651799
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 2
             }
@@ -267,12 +309,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    2651799
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      2651799
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 3
             }
@@ -285,12 +330,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    12801229
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      12801229
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 1
             }
@@ -303,12 +351,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    12801229
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      12801229
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 2
             }
@@ -321,12 +372,15 @@
             {
               "function": "minecraft:set_fireworks",
               "explosions": {
-                "values": [{
-                  "shape": "small_ball",
-                  "colors": [
-                    12801229
-                  ]
-                }]
+                "values": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      12801229
+                    ]
+                  }
+                ],
+                "mode": "append"
               },
               "flight_duration": 3
             }

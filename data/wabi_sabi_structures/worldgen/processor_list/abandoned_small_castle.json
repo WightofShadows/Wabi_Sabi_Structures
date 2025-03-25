@@ -46,9 +46,8 @@
             "predicate_type": "minecraft:always_true"
           },
           "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:sponge",
-            "probability": 1.0
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:sponge"
           },
           "output_state": {
             "Name": "minecraft:tnt"
@@ -115,6 +114,19 @@
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:brewing_stand",
             "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:firefly_bush",
+            "probability": 0.80
           },
           "output_state": {
             "Name": "minecraft:air"

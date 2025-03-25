@@ -291,17 +291,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 12479015
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
+                "minecraft:dyed_color": 12479015,
                 "minecraft:trim": {
                   "material": "minecraft:diamond",
                   "pattern": "minecraft:raiser"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -333,8 +329,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:iron",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -364,17 +362,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 3044727
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
+                "minecraft:dyed_color": 3044727,
                 "minecraft:trim": {
                   "material": "minecraft:copper",
                   "pattern": "minecraft:wayfinder"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -407,6 +401,9 @@
                 "minecraft:trim": {
                   "material": "minecraft:gold",
                   "pattern": "minecraft:shaper"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },

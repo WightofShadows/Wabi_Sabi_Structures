@@ -10,13 +10,14 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.1
+            "probability": 0.0010
           },
           "output_state": {
-            "Name": "minecraft:wheat",
-            "Properties": {
-              "age": "6"
-            }
+            "Name": "minecraft:barrel"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "wabi_sabi_structures:chests/wheat_patch/wheat_patch"
           }
         },
         {
@@ -26,7 +27,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.75
+            "probability": 0.60
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -39,14 +40,36 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.01
+            "probability": 0.15
           },
           "output_state": {
-            "Name": "minecraft:barrel"
+            "Name": "minecraft:short_dry_grass"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
           },
-          "block_entity_modifier": {
-            "type": "minecraft:append_loot",
-            "loot_table": "wabi_sabi_structures:chests/wheat_patch/wheat_patch"
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wheat",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:tall_dry_grass"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wheat",
+            "probability": 0.10
+          },
+          "output_state": {
+            "Name": "minecraft:short_grass"
           }
         },
         {

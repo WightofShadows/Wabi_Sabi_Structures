@@ -6,7 +6,7 @@
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "wabi_sabi_structures:generic_jigsaws/entities/villagers/wandering_trader",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/villagers/custom_wandering_trader_1",
                 "projection": "rigid",
                 "processors": "minecraft:empty"
             }

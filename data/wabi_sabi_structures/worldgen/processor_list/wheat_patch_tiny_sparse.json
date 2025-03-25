@@ -10,40 +10,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.0015
-          },
-          "output_state": {
-            "Name": "minecraft:barrel"
-          },
-          "block_entity_modifier": {
-            "type": "minecraft:append_loot",
-            "loot_table": "wabi_sabi_structures:chests/wheat_patch/wheat_patch"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 0.15
-          },
-          "output_state": {
-            "Name": "minecraft:wheat",
-            "Properties": {
-              "age": "6"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 0.35
+            "probability": 0.40
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -56,23 +23,10 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.25
+            "probability": 0.15
           },
           "output_state": {
             "Name": "minecraft:short_grass"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 0.10
-          },
-          "output_state": {
-            "Name": "minecraft:bush"
           }
         },
         {
@@ -95,10 +49,24 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.15
+            "probability": 0.30
           },
           "output_state": {
             "Name": "minecraft:tall_dry_grass"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:water"
           }
         },
         {

@@ -23,7 +23,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "wabi_sabi_structures:generic_jigsaws/plants/cactus/cactus_1",
                 "projection":  "terrain_matching",
-                "processors": "minecraft:empty"
+                "processors": "wabi_sabi_structures:generic/plants/cactus_flower_rot"
             }
         },
         {
@@ -32,7 +32,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "wabi_sabi_structures:generic_jigsaws/plants/cactus/cactus_2",
                 "projection":  "terrain_matching",
-                "processors": "minecraft:empty"
+                "processors": "wabi_sabi_structures:generic/plants/cactus_flower_rot"
             }
         },
         {
@@ -41,7 +41,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "wabi_sabi_structures:generic_jigsaws/plants/cactus/cactus_3",
                 "projection":  "terrain_matching",
-                "processors": "minecraft:empty"
+                "processors": "wabi_sabi_structures:generic/plants/cactus_flower_rot"
             }
         },
 		{

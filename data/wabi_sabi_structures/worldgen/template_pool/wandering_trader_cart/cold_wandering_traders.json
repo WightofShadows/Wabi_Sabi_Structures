@@ -1,0 +1,51 @@
+{
+    "name": "wabi_sabi_structures:cold_wandering_traders",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:generic_jigsaws/entities/villagers/custom_wandering_trader_1",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:wandering_trader_cart/entities/wandering_traders/cold_wandering_trader_1",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:wandering_trader_cart/entities/wandering_traders/cold_wandering_trader_2",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:wandering_trader_cart/entities/wandering_traders/cold_wandering_trader_3",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "wabi_sabi_structures:wandering_trader_cart/entities/wandering_traders/cold_wandering_trader_4",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

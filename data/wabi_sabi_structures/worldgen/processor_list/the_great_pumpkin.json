@@ -52,7 +52,20 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:short_grass",
-            "probability": 0.65
+            "probability": 0.45
+          },
+          "output_state": {
+            "Name": "minecraft:bush"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:short_grass",
+            "probability": 0.15
           },
           "output_state": {
             "Name": "minecraft:fern"

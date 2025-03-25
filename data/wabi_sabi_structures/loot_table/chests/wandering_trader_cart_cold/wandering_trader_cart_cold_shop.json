@@ -27,7 +27,7 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "minecraft:egg",
+          "name": "minecraft:blue_egg",
           "functions": [
             {
               "function": "minecraft:set_count",

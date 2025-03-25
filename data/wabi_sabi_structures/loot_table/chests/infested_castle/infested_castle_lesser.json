@@ -367,8 +367,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:iron",
-                  "pattern": "minecraft:sentry",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:sentry"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -392,8 +394,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:iron",
-                  "pattern": "minecraft:sentry",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:sentry"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -417,8 +421,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:iron",
-                  "pattern": "minecraft:sentry",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:sentry"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -442,8 +448,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:iron",
-                  "pattern": "minecraft:sentry",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:sentry"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },

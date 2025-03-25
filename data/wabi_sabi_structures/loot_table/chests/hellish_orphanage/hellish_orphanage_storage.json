@@ -430,8 +430,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:quartz",
-                  "pattern": "minecraft:vex",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:vex"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -465,8 +467,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:quartz",
-                  "pattern": "minecraft:vex",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:vex"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -500,8 +504,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:quartz",
-                  "pattern": "minecraft:vex",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:vex"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -535,8 +541,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:quartz",
-                  "pattern": "minecraft:vex",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:vex"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },

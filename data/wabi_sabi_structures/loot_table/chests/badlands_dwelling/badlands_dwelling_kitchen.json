@@ -26,6 +26,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:brown_egg"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 13,
           "name": "minecraft:bowl",
           "functions": [

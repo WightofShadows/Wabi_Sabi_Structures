@@ -1,24 +1,31 @@
 {
   "processors": [
     {
+      "processor_type": "minecraft:block_rot",
+      "integrity": 0.5,
+      "rottable_blocks": "minecraft:barrel"
+    },
+    {
       "processor_type": "minecraft:rule",
       "rules": [
         {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:farmland",
+            "probability": 0.20
+          },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 0.02
-          },
           "output_state": {
-            "Name": "minecraft:wheat",
-            "Properties": {
-              "age": "6"
-            }
+            "Name": "minecraft:grass_block"
           }
-        },
+		}
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -35,53 +42,53 @@
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:farmland",
-            "probability": 0.05
+            "block": "minecraft:wheat",
+            "probability": 0.10
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:grass_block"
-          }
-		},
-        {
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:farmland",
-            "probability": 0.02
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "output_state": {
-            "Name": "minecraft:water"
+            "Name": "minecraft:short_grass"
           }
 		},
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.05
+            "probability": 0.08
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:short_dry_grass"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wheat",
+            "probability": 0.16
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:tall_dry_grass"
+          }
+		},
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wheat",
+            "probability": 0.15
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
             "Name": "minecraft:air"
-          }
-		},
-        {
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:wheat",
-            "probability": 0.03
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "output_state": {
-            "Name": "minecraft:dandelion"
           }
 		},
         {

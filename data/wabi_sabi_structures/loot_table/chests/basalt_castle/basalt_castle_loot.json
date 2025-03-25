@@ -108,8 +108,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:netherite",
-                  "pattern": "minecraft:snout",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:snout"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -134,8 +136,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:netherite",
-                  "pattern": "minecraft:snout",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:snout"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -160,8 +164,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:netherite",
-                  "pattern": "minecraft:snout",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:snout"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },
@@ -186,8 +192,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:netherite",
-                  "pattern": "minecraft:snout",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:snout"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             },

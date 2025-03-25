@@ -10,7 +10,24 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.2
+            "probability": 0.0020
+          },
+          "output_state": {
+            "Name": "minecraft:barrel"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "wabi_sabi_structures:chests/wheat_patch/wheat_patch"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wheat",
+            "probability": 0.20
           },
           "output_state": {
             "Name": "minecraft:wheat",
@@ -26,7 +43,7 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.6
+            "probability": 0.15
           },
           "output_state": {
             "Name": "minecraft:air"
@@ -39,14 +56,23 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:wheat",
-            "probability": 0.005
+            "probability": 0.25
           },
           "output_state": {
-            "Name": "minecraft:barrel"
+            "Name": "minecraft:short_grass"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
           },
-          "block_entity_modifier": {
-            "type": "minecraft:append_loot",
-            "loot_table": "wabi_sabi_structures:chests/wheat_patch/wheat_patch"
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:wheat",
+            "probability": 0.40
+          },
+          "output_state": {
+            "Name": "minecraft:bush"
           }
         },
         {

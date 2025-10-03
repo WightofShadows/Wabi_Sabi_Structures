@@ -1,6 +1,7 @@
 {
-	"pack": {
-		"pack_format": 71,
-		"description": "A collection of unique, quality, imperfect structures"
-	}
+    "pack": {
+        "description": "A collection of unique, quality, imperfect structures",
+        "min_format": 88,
+        "max_format": 88
+    }
 }

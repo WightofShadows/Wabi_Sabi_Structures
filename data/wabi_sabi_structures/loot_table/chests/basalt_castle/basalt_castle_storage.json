@@ -31,7 +31,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:chain",
+          "name": "minecraft:iron_chain",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -58,7 +58,7 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:chain",
+            "block": "minecraft:iron_chain",
             "probability": 0.3
           },
           "output_state": {

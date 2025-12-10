@@ -58,6 +58,16 @@
           "type": "minecraft:item",
           "weight": 4,
           "name": "minecraft:turtle_scute"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:golden_nautilus_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond_nautilus_armor"
         }
       ]
     }

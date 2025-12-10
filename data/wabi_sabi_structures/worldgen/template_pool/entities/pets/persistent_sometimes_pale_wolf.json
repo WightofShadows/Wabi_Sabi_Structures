@@ -2,12 +2,12 @@
     "name": "wabi_sabi_structures:persistent_sometimes_pale_wolf",
     "fallback": "minecraft:empty",
     "elements": [
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:empty_pool_element"
-			}
-		},
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
         {
             "weight": 1,
             "element": {

@@ -2,13 +2,13 @@
   "replace": false,
   "values": [
     "minecraft:nether_wastes",
-	{
-		"id": "incendium:ash_barrens",
-		"required": false
-	},
-	{
-		"id": "incendium:volcanic_deltas",
-		"required": false
-	}
+    {
+        "id": "incendium:ash_barrens",
+        "required": false
+    },
+    {
+        "id": "incendium:volcanic_deltas",
+        "required": false
+    }
   ]
 }

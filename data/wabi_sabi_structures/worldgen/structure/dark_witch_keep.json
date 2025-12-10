@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/dark_witch_keep",
     "adapt_noise": true,
-	"spawn_overrides": {},
+    "spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:dark_witch_keep",
     "size": 7,
     "step": "surface_structures",

@@ -4,42 +4,42 @@
     "minecraft:plains",
     "minecraft:savanna",
     "minecraft:taiga",
-	{
-		"id": "terralith:alpine_highlands",
-		"required": false
-	},
-	{
-		"id": "terralith:arid_highlands",
-		"required": false
-	},
-	{
-		"id": "terralith:birch_taiga",
-		"required": false
-	},
-	{
-		"id": "terralith:brushland",
-		"required": false
-	},
-	{
-		"id": "terralith:highlands",
-		"required": false
-	},
-	{
-		"id": "terralith:shrubland",
-		"required": false
-	},
-	{
-		"id": "terralith:forested_highlands",
-		"required": false
-	},
-	{
-		"id": "terralith:lush_valley",
-		"required": false
-	},
-	{
-		"id": "nyctophobia:haunted_forest",
-		"required": false
-	},
+    {
+        "id": "terralith:alpine_highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:arid_highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:birch_taiga",
+        "required": false
+    },
+    {
+        "id": "terralith:brushland",
+        "required": false
+    },
+    {
+        "id": "terralith:highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:shrubland",
+        "required": false
+    },
+    {
+        "id": "terralith:forested_highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:lush_valley",
+        "required": false
+    },
+    {
+        "id": "nyctophobia:haunted_forest",
+        "required": false
+    },
     {
         "id": "traverse:desert_shrubland",
         "required": false

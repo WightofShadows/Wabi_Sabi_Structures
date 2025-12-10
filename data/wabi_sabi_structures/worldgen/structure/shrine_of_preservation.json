@@ -3,7 +3,7 @@
     "biomes": "#wabi_sabi_structures:has_structure/shrine_of_preservation",
     "adapt_noise": true,
     "start_pool": "wabi_sabi_structures:shrine_of_preservation/shrine_of_preservation",
-	"spawn_overrides": {
+    "spawn_overrides": {
       "monster": {
         "bounding_box": "full",
         "spawns": []
@@ -12,7 +12,7 @@
     "size": 7,
     "step": "underground_decoration",
     "liquid_settings": "ignore_waterlogging",
-	"start_height": {
+    "start_height": {
       "type": "minecraft:uniform",
       "min_inclusive": {
         "absolute": -20

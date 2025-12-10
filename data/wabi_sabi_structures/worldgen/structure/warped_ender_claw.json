@@ -2,8 +2,8 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/warped_ender_claw",
     "adapt_noise": true,
-	"spawn_overrides": {
-	  "monster": {
+    "spawn_overrides": {
+      "monster": {
         "bounding_box": "piece",
         "spawns": [
           {
@@ -18,7 +18,7 @@
     "start_pool": "wabi_sabi_structures:warped_ender_claw",
     "size": 7,
     "step": "underground_decoration",
-	"start_height": {
+    "start_height": {
       "type": "minecraft:uniform",
       "min_inclusive": {
         "absolute": 33

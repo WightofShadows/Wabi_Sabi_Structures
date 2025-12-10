@@ -5,10 +5,10 @@
     "minecraft:old_growth_pine_taiga",
     "minecraft:old_growth_spruce_taiga",
     "minecraft:windswept_gravelly_hills",
-	{
-		"id": "nyctophobia:haunted_lakes",
-		"required": false
-	},
+    {
+        "id": "nyctophobia:haunted_lakes",
+        "required": false
+    },
     {
         "id": "terralith:ancient_sands",
         "required": false

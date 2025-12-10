@@ -16,7 +16,7 @@
           "output_state": {
             "Name": "minecraft:grass_block"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -30,7 +30,7 @@
           "output_state": {
             "Name": "minecraft:sand"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -44,7 +44,7 @@
           "output_state": {
             "Name": "minecraft:red_sand"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -58,7 +58,7 @@
           "output_state": {
             "Name": "minecraft:packed_mud"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -72,7 +72,7 @@
           "output_state": {
             "Name": "minecraft:terracotta"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -86,7 +86,7 @@
           "output_state": {
             "Name": "minecraft:snow_block"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -100,7 +100,7 @@
           "output_state": {
             "Name": "minecraft:stone"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -114,7 +114,7 @@
           "output_state": {
             "Name": "minecraft:gravel"
           }
-		}
+        }
       ]
     }
   ]

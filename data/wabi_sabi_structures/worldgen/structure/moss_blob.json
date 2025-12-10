@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/moss_blob",
     "adapt_noise": true,
-	"spawn_overrides": {},
+    "spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:moss_blob",
     "size": 7,
     "step": "surface_structures",

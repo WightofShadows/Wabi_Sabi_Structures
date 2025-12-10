@@ -2,12 +2,12 @@
     "name": "wabi_sabi_structures:path_torch",
     "fallback": "minecraft:empty",
     "elements": [
-		{
-			"weight": 4,
-			"element": {
-				"element_type": "minecraft:empty_pool_element"
-			}
-		},
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
         {
             "weight": 1,
             "element": {

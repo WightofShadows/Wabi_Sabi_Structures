@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/frost_reactor_plant",
     "adapt_noise": true,
-	"spawn_overrides": {},
+    "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
     "start_pool": "wabi_sabi_structures:frost_reactor_plant/frost_reactor_plant",
     "size": 10,

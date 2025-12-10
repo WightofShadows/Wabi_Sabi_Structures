@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/sphinx_hidey_hole_sandy",
     "adapt_noise": true,
-	"spawn_overrides": {},
+    "spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:sphinx_hidey_hole_sandy",
     "size": 7,
     "step": "surface_structures",

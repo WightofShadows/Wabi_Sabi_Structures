@@ -2,7 +2,7 @@
     "name": "wabi_sabi_structures:roads_1",
     "fallback": "wabi_sabi_structures:concrete_mill_ruins/desert/terminators",
     "elements": [
-		{
+        {
             "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -11,7 +11,7 @@
                 "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/roads"
             }
         },
-		{
+        {
             "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -38,7 +38,7 @@
                 "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/roads"
             }
         },
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -47,7 +47,7 @@
                 "processors": "wabi_sabi_structures:concrete_mill_ruins/desert/roads"
             }
         },
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",

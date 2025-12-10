@@ -2,7 +2,7 @@
     "name": "wabi_sabi_structures:roads",
     "fallback": "wabi_sabi_structures:spruce_cabin/terminators",
     "elements": [
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -11,7 +11,7 @@
                 "processors": "wabi_sabi_structures:spruce_cabin/roads"
             }
         },
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -38,7 +38,7 @@
                 "processors": "wabi_sabi_structures:spruce_cabin/roads"
             }
         },
-		{
+        {
             "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -47,7 +47,7 @@
                 "processors": "wabi_sabi_structures:spruce_cabin/roads"
             }
         },
-		{
+        {
             "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -56,7 +56,7 @@
                 "processors": "wabi_sabi_structures:spruce_cabin/roads"
             }
         },
-		{
+        {
             "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -65,7 +65,7 @@
                 "processors": "wabi_sabi_structures:spruce_cabin/roads"
             }
         },
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",

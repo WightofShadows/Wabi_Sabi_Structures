@@ -83,6 +83,11 @@
           "type": "minecraft:item",
           "weight": 3,
           "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:copper_nautilus_armor"
         }
       ]
     }

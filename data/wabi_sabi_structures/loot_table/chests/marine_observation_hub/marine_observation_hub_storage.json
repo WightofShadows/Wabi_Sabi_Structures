@@ -947,6 +947,21 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "name": "minecraft:iron_spear",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:iron_sword",
           "functions": [
             {
@@ -999,6 +1014,16 @@
               "id": "minecraft:water_breathing"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:copper_nautilus_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_nautilus_armor"
         },
         {
           "type": "minecraft:item",

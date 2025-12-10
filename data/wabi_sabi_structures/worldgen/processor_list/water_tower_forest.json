@@ -16,7 +16,7 @@
           "output_state": {
             "Name": "minecraft:sand"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -30,7 +30,7 @@
           "output_state": {
             "Name": "minecraft:stone"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -44,7 +44,7 @@
           "output_state": {
             "Name": "minecraft:gravel"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -57,7 +57,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -70,7 +70,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -83,7 +83,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -96,7 +96,7 @@
           "output_state": {
             "Name": "minecraft:brown_mushroom"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -109,7 +109,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -122,7 +122,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		}
+        }
       ]
     }
   ]

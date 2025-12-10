@@ -2,13 +2,13 @@
   "replace": false,
   "values": [
     "minecraft:crimson_forest",
-	{
-		"id": "incendium:quartz_flats",
-		"required": false
-	},
-	{
-		"id": "incendium:infernal_dunes",
-		"required": false
-	}
+    {
+        "id": "incendium:quartz_flats",
+        "required": false
+    },
+    {
+        "id": "incendium:infernal_dunes",
+        "required": false
+    }
   ]
 }

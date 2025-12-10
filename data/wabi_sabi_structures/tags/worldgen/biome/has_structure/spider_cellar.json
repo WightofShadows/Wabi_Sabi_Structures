@@ -2,33 +2,33 @@
   "replace": false,
   "values": [
     "minecraft:sparse_jungle",
-	{
-		"id": "traverse:lush_swamp",
-		"required": false
-	},
-	{
-		"id": "terrestria:rainbow_rainforest",
-		"required": false
-	},
-	{
-		"id": "terrestria:sakura_forest",
-		"required": false
-	},
-	{
-		"id": "terralith:bryce_canyon",
-		"required": false
-	},
-	{
-		"id": "terralith:hot_shrubland",
-		"required": false
-	},
-	{
-		"id": "nyctophobia:haunted_forest",
-		"required": false
-	},
-	{
-		"id": "nyctophobia:eroded_haunted_forest",
-		"required": false
-	}
+    {
+        "id": "traverse:lush_swamp",
+        "required": false
+    },
+    {
+        "id": "terrestria:rainbow_rainforest",
+        "required": false
+    },
+    {
+        "id": "terrestria:sakura_forest",
+        "required": false
+    },
+    {
+        "id": "terralith:bryce_canyon",
+        "required": false
+    },
+    {
+        "id": "terralith:hot_shrubland",
+        "required": false
+    },
+    {
+        "id": "nyctophobia:haunted_forest",
+        "required": false
+    },
+    {
+        "id": "nyctophobia:eroded_haunted_forest",
+        "required": false
+    }
   ]
 }

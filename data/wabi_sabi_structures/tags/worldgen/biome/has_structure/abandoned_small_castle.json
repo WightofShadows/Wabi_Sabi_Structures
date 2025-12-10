@@ -3,25 +3,25 @@
   "values": [
     "minecraft:plains",
     "minecraft:sunflower_plains",
-	{
-		"id": "traverse:flatlands",
-		"required": false
-	},
-	{
-		"id": "terralith:arid_highlands",
-		"required": false
-	},
-	{
-		"id": "terralith:moonlight_valley",
-		"required": false
-	},
-	{
-		"id": "terralith:steppe",
-		"required": false
-	},
-	{
-		"id": "terralith:shrubland",
-		"required": false
-	}
+    {
+        "id": "traverse:flatlands",
+        "required": false
+    },
+    {
+        "id": "terralith:arid_highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:moonlight_valley",
+        "required": false
+    },
+    {
+        "id": "terralith:steppe",
+        "required": false
+    },
+    {
+        "id": "terralith:shrubland",
+        "required": false
+    }
   ]
 }

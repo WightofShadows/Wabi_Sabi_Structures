@@ -96,7 +96,7 @@
           "output_state": {
             "Name": "minecraft:raw_iron_block"
           }
-        },		
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -109,7 +109,7 @@
           "output_state": {
             "Name": "minecraft:raw_gold_block"
           }
-        },	
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -149,7 +149,7 @@
             "Name": "minecraft:lapis_ore"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -162,7 +162,7 @@
             "Name": "minecraft:diorite"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -175,7 +175,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -187,8 +187,8 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-        }, 		
-		{
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -200,8 +200,8 @@
           "output_state": {
             "Name": "minecraft:pumpkin"
           }
-        },   
-		{
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -214,7 +214,7 @@
             "Name": "minecraft:light_blue_concrete"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -226,8 +226,8 @@
           "output_state": {
             "Name": "minecraft:cyan_wool"
           }
-        },		
-		{
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },

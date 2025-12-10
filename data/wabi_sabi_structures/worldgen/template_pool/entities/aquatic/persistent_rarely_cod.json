@@ -2,12 +2,12 @@
     "name": "wabi_sabi_structures:persistent_rarely_cod",
     "fallback": "minecraft:empty",
     "elements": [
-		{
-			"weight": 3,
-			"element": {
-				"element_type": "minecraft:empty_pool_element"
-			}
-		},
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
         {
             "weight": 1,
             "element": {

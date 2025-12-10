@@ -15,7 +15,7 @@
           "output_state": {
             "Name": "minecraft:hay_block"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -28,7 +28,7 @@
           "output_state": {
             "Name": "minecraft:cobblestone"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -41,7 +41,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -54,7 +54,7 @@
           "output_state": {
             "Name": "minecraft:grass_block"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -67,7 +67,7 @@
           "output_state": {
             "Name": "minecraft:grass_block"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -80,7 +80,7 @@
           "output_state": {
             "Name": "minecraft:andesite"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -93,7 +93,7 @@
           "output_state": {
             "Name": "minecraft:mossy_cobblestone"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -106,7 +106,7 @@
           "output_state": {
             "Name": "minecraft:cobblestone"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -119,7 +119,7 @@
           "output_state": {
             "Name": "minecraft:mossy_cobblestone"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -132,7 +132,7 @@
           "output_state": {
             "Name": "minecraft:mossy_cobblestone_slab"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -145,7 +145,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -158,7 +158,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -171,7 +171,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -200,7 +200,7 @@
           "output_state": {
             "Name": "minecraft:dandelion"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -213,7 +213,7 @@
           "output_state": {
             "Name": "minecraft:short_grass"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -226,7 +226,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -239,7 +239,7 @@
           "output_state": {
             "Name": "minecraft:dead_bush"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -252,7 +252,7 @@
           "output_state": {
             "Name": "minecraft:mud"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -265,7 +265,7 @@
           "output_state": {
             "Name": "minecraft:grass_block"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -278,7 +278,7 @@
           "output_state": {
             "Name": "minecraft:coarse_dirt"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"

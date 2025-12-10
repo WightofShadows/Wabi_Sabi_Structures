@@ -20,7 +20,7 @@
                 "processors": "wabi_sabi_structures:big_lighthouse"
             }
         },
-	    {
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",

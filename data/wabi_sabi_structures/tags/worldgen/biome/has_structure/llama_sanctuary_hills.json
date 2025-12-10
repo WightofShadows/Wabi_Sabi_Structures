@@ -2,21 +2,21 @@
   "replace": false,
   "values": [
     "minecraft:windswept_hills",
-	{
-		"id": "terralith:windswept_spires",
-		"required": false
-	},
-	{
-		"id": "terralith:sakura_valley",
-		"required": false
-	},
-	{
-		"id": "terralith:highlands",
-		"required": false
-	},
-	{
-		"id": "terralith:cloud_forest",
-		"required": false
-	}
+    {
+        "id": "terralith:windswept_spires",
+        "required": false
+    },
+    {
+        "id": "terralith:sakura_valley",
+        "required": false
+    },
+    {
+        "id": "terralith:highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:cloud_forest",
+        "required": false
+    }
   ]
 }

@@ -15,7 +15,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -29,7 +29,7 @@
           "output_state": {
             "Name": "minecraft:sand"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -43,7 +43,7 @@
           "output_state": {
             "Name": "minecraft:red_sand"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -57,7 +57,7 @@
           "output_state": {
             "Name": "minecraft:gravel"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -70,7 +70,7 @@
           "output_state": {
             "Name": "minecraft:mud"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -83,7 +83,7 @@
           "output_state": {
             "Name": "minecraft:grass_block"
           }
-		}
+        }
       ]
     }
   ]

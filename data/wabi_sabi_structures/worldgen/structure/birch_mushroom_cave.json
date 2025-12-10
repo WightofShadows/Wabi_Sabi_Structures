@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/birch_mushroom_cave",
     "adapt_noise": true,
-	"spawn_overrides": {},
+    "spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:birch_mushroom_cave",
     "size": 7,
     "step": "surface_structures",

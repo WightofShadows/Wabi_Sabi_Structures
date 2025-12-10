@@ -38,7 +38,7 @@
         "processors": "wabi_sabi_structures:totem_pole"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",

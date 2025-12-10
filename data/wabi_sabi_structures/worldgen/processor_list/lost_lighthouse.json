@@ -16,7 +16,7 @@
           "output_state": {
             "Name": "minecraft:sand"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -30,7 +30,7 @@
           "output_state": {
             "Name": "minecraft:grass_block"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -44,7 +44,7 @@
           "output_state": {
             "Name": "minecraft:red_sand"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"

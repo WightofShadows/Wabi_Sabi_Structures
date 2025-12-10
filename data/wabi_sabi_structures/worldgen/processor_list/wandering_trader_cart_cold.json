@@ -16,7 +16,7 @@
           "output_state": {
             "Name": "minecraft:snow_block"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -30,7 +30,7 @@
           "output_state": {
             "Name": "minecraft:powder_snow"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -44,7 +44,7 @@
           "output_state": {
             "Name": "minecraft:ice"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -58,7 +58,7 @@
           "output_state": {
             "Name": "minecraft:packed_ice"
           }
-		},
+        },
 
         {
           "location_predicate": {

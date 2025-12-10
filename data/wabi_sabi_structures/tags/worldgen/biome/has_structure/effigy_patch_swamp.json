@@ -3,13 +3,13 @@
   "values": [
     "minecraft:mangrove_swamp",
     "minecraft:swamp",
-	{
-		"id": "traverse:lush_swamp",
-		"required": false
-	},
-	{
-		"id": "terrestria:cypress_swamp",
-		"required": false
-	}
+    {
+        "id": "traverse:lush_swamp",
+        "required": false
+    },
+    {
+        "id": "terrestria:cypress_swamp",
+        "required": false
+    }
   ]
 }

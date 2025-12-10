@@ -31,7 +31,7 @@
           "output_state": {
             "Name": "minecraft:pumpkin"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -44,7 +44,7 @@
           "output_state": {
             "Name": "minecraft:mangrove_roots"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -57,7 +57,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -70,7 +70,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -109,7 +109,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -122,7 +122,7 @@
           "output_state": {
             "Name": "minecraft:mangrove_roots"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -135,7 +135,7 @@
           "output_state": {
             "Name": "minecraft:rooted_dirt"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -148,7 +148,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -161,7 +161,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -222,7 +222,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		}
+        }
       ]
     }
   ]

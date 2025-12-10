@@ -66,7 +66,7 @@
           "output_state": {
             "Name": "minecraft:polished_granite"
           }
-        },	
+        },
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -79,8 +79,8 @@
           "output_state": {
             "Name": "minecraft:raw_gold_block"
           }
-        },	
-		{
+        },
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -93,7 +93,7 @@
             "Name": "minecraft:red_sandstone"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -106,7 +106,7 @@
             "Name": "minecraft:cracked_stone_bricks"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -119,7 +119,7 @@
             "Name": "minecraft:red_sandstone"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -132,7 +132,7 @@
             "Name": "minecraft:cracked_stone_bricks"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -145,7 +145,7 @@
             "Name": "minecraft:stone_bricks"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -158,7 +158,7 @@
             "Name": "minecraft:red_sandstone"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -171,7 +171,7 @@
             "Name": "minecraft:red_sandstone"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -184,7 +184,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -197,7 +197,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -210,7 +210,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -223,7 +223,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -236,7 +236,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -249,7 +249,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -262,7 +262,7 @@
             "Name": "minecraft:acacia_slab"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -275,7 +275,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -288,7 +288,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -301,7 +301,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -314,7 +314,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -327,7 +327,7 @@
             "Name": "minecraft:cobblestone_slab"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -340,7 +340,7 @@
             "Name": "minecraft:oak_planks"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -353,7 +353,7 @@
             "Name": "minecraft:sand"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -366,7 +366,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -379,7 +379,7 @@
             "Name": "minecraft:red_sandstone_slab"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -392,7 +392,7 @@
             "Name": "minecraft:smooth_red_sandstone"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -405,7 +405,7 @@
             "Name": "minecraft:red_sandstone"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -432,7 +432,7 @@
             "Name": "minecraft:sand"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -445,7 +445,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -458,7 +458,7 @@
             "Name": "minecraft:air"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -471,7 +471,7 @@
             "Name": "minecraft:sand"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -484,7 +484,7 @@
             "Name": "minecraft:polished_granite"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -497,7 +497,7 @@
             "Name": "minecraft:granite"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -510,7 +510,7 @@
             "Name": "minecraft:granite"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
@@ -523,7 +523,7 @@
             "Name": "minecraft:mangrove_roots"
           }
         },
-		{
+        {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },

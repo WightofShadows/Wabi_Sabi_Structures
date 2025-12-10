@@ -2,12 +2,12 @@
     "name": "wabi_sabi_structures:decor",
     "fallback": "minecraft:empty",
     "elements": [
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:empty_pool_element"
-			}
-		},
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
         {
             "weight": 5,
             "element": {

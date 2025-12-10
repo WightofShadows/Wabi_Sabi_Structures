@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/ice_shanty",
     "adapt_noise": true,
-	"spawn_overrides": {},
+    "spawn_overrides": {},
     "start_pool": "wabi_sabi_structures:ice_shanty",
     "size": 7,
     "step": "surface_structures",

@@ -2,8 +2,8 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/forgotten_remnants",
     "adapt_noise": true,
-	"spawn_overrides": {
-	  "ambient": {
+    "spawn_overrides": {
+      "ambient": {
         "bounding_box": "full",
         "spawns": []
       },
@@ -36,11 +36,11 @@
         "spawns": []
       }
     },
-	"terrain_adaptation": "beard_thin",
+    "terrain_adaptation": "beard_thin",
     "start_pool": "wabi_sabi_structures:forgotten_remnants",
     "size": 7,
     "step": "underground_decoration",
-	"start_height": {
+    "start_height": {
       "type": "minecraft:uniform",
       "min_inclusive": {
         "absolute": -40

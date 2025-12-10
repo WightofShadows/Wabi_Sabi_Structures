@@ -2,9 +2,9 @@
   "replace": false,
   "values": [
     "minecraft:mushroom_fields",
-	{
-		"id": "terralith:mirage_isles",
-		"required": false
-	}
+    {
+        "id": "terralith:mirage_isles",
+        "required": false
+    }
   ]
 }

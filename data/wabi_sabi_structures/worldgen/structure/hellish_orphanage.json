@@ -2,12 +2,12 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/hellish_orphanage",
     "adapt_noise": true,
-	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
     "start_pool": "wabi_sabi_structures:hellish_orphanage",
     "size": 7,
     "step": "underground_decoration",
-	"start_height": {
+    "start_height": {
       "type": "minecraft:uniform",
       "min_inclusive": {
         "absolute": 33

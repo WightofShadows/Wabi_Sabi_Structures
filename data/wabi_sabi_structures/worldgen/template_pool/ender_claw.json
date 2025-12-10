@@ -11,7 +11,7 @@
                 "processors": "wabi_sabi_structures:ender_claw"
             }
         },
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -20,7 +20,7 @@
                 "processors": "wabi_sabi_structures:ender_claw"
             }
         },
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -29,7 +29,7 @@
                 "processors": "wabi_sabi_structures:ender_claw"
             }
         },
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",

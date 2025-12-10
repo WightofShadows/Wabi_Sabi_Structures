@@ -3,12 +3,12 @@
   "values": [
     "minecraft:dark_forest",
     {
-	    "id": "terralith:mirage_isles",
-	    "required": false
+        "id": "terralith:mirage_isles",
+        "required": false
     },
     {
-	    "id": "nyctophobia:deep_dark_forest",
-	    "required": false
+        "id": "nyctophobia:deep_dark_forest",
+        "required": false
     }
   ]
 }

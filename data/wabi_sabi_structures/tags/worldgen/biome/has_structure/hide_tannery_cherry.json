@@ -4,12 +4,12 @@
     "minecraft:meadow",
     "minecraft:cherry_grove",
     {
-	    "id": "terralith:snowy_cherry_grove",
-	    "required": false
+        "id": "terralith:snowy_cherry_grove",
+        "required": false
     },
     {
-	    "id": "terrestria:japanese_maple_forest",
-	    "required": false
+        "id": "terrestria:japanese_maple_forest",
+        "required": false
     },
     {
         "id": "terrestria:sakura_forest",

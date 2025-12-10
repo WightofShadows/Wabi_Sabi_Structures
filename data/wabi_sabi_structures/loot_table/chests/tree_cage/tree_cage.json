@@ -251,7 +251,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:stone_sword",
+          "name": "minecraft:stone_spear",
           "functions": [
             {
               "function": "minecraft:set_damage",

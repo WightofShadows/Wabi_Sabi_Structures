@@ -2,17 +2,17 @@
   "replace": false,
   "values": [
     "minecraft:river",
-	{
-		"id": "terrestria:cypress_swamp",
-		"required": false
-	},
-	{
-		"id": "terralith:warm_river",
-		"required": false
-	},
-	{
-		"id": "terralith:yellowstone",
-		"required": false
-	}
+    {
+        "id": "terrestria:cypress_swamp",
+        "required": false
+    },
+    {
+        "id": "terralith:warm_river",
+        "required": false
+    },
+    {
+        "id": "terralith:yellowstone",
+        "required": false
+    }
   ]
 }

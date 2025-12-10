@@ -2,12 +2,12 @@
     "name": "wabi_sabi_structures:path_additions",
     "fallback": "minecraft:empty",
     "elements": [
-		{
-			"weight": 10,
-			"element": {
-				"element_type": "minecraft:empty_pool_element"
-			}
-		},
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
         {
             "weight": 3,
             "element": {

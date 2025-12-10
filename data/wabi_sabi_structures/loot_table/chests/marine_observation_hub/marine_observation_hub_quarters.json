@@ -131,7 +131,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:iron_spear",
           "functions": [
             {
               "function": "minecraft:set_damage",

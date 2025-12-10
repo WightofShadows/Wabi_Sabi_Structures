@@ -3,17 +3,17 @@
   "values": [
     "minecraft:birch_forest",
     "minecraft:old_growth_birch_forest",
-	{
-		"id": "terrestria:cypress_forest",
-		"required": false
-	},
-	{
-		"id": "terralith:birch_taiga",
-		"required": false
-	},
-	{
-		"id": "terralith:orchid_swamp",
-		"required": false
-	}
+    {
+        "id": "terrestria:cypress_forest",
+        "required": false
+    },
+    {
+        "id": "terralith:birch_taiga",
+        "required": false
+    },
+    {
+        "id": "terralith:orchid_swamp",
+        "required": false
+    }
   ]
 }

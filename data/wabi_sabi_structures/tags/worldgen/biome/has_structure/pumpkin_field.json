@@ -3,30 +3,30 @@
   "values": [
     "minecraft:plains",
     "minecraft:savanna",
-	{
-		"id": "terralith:arid_highlands",
-		"required": false
-	},
-	{
-		"id": "terralith:brushland",
-		"required": false
-	},
-	{
-		"id": "terralith:hot_shrubland",
-		"required": false
-	},
-	{
-		"id": "terralith:steppe",
-		"required": false
-	},
-	{
-		"id": "terralith:shrubland",
-		"required": false
-	},
-	{
-		"id": "nyctophobia:deep_dark_forest",
-		"required": false
-	},
+    {
+        "id": "terralith:arid_highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:brushland",
+        "required": false
+    },
+    {
+        "id": "terralith:hot_shrubland",
+        "required": false
+    },
+    {
+        "id": "terralith:steppe",
+        "required": false
+    },
+    {
+        "id": "terralith:shrubland",
+        "required": false
+    },
+    {
+        "id": "nyctophobia:deep_dark_forest",
+        "required": false
+    },
     {
         "id": "traverse:desert_shrubland",
         "required": false

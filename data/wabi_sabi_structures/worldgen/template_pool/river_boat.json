@@ -47,7 +47,7 @@
                 "processors": "wabi_sabi_structures:small_roofed_dinghy"
             }
         },
-		{
+        {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",

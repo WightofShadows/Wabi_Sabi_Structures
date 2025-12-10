@@ -16,7 +16,7 @@
           "output_state": {
             "Name": "minecraft:podzol"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -30,7 +30,7 @@
           "output_state": {
             "Name": "minecraft:coarse_dirt"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -44,7 +44,7 @@
           "output_state": {
             "Name": "minecraft:jungle_planks"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -58,7 +58,7 @@
           "output_state": {
             "Name": "minecraft:mossy_cobblestone"
           }
-		}
+        }
       ]
     }
   ]

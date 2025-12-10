@@ -2,12 +2,12 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/strider_stable",
     "adapt_noise": true,
-	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
     "start_pool": "wabi_sabi_structures:strider_stable",
     "size": 7,
     "step": "surface_structures",
-	"start_height": {
+    "start_height": {
       "type": "minecraft:uniform",
       "min_inclusive": {
         "absolute": 29

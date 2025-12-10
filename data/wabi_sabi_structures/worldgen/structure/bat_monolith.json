@@ -2,8 +2,8 @@
     "type": "minecraft:jigsaw",
     "biomes": "#wabi_sabi_structures:has_structure/bat_monolith",
     "adapt_noise": true,
-	"spawn_overrides": {
-	  "monster": {
+    "spawn_overrides": {
+      "monster": {
         "bounding_box": "piece",
         "spawns": [
           {
@@ -15,11 +15,11 @@
         ]
       }
     },
-	"terrain_adaptation": "beard_thin",
+    "terrain_adaptation": "beard_thin",
     "start_pool": "wabi_sabi_structures:bat_monolith",
     "size": 7,
     "step": "underground_decoration",
-	"start_height": {
+    "start_height": {
       "type": "minecraft:uniform",
       "min_inclusive": {
         "absolute": -45

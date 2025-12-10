@@ -11,7 +11,7 @@
                 "processors": "wabi_sabi_structures:effigy_patch_swamp"
             }
         },
-		{
+        {
             "weight": 4,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -20,7 +20,7 @@
                 "processors": "wabi_sabi_structures:effigy_patch_swamp"
             }
         },
-		{
+        {
             "weight": 3,
             "element": {
                 "element_type": "minecraft:single_pool_element",
@@ -29,7 +29,7 @@
                 "processors": "wabi_sabi_structures:effigy_patch_swamp"
             }
         },
-		{
+        {
             "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",

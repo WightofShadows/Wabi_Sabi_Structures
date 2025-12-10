@@ -4,16 +4,16 @@
     "minecraft:flower_forest",
     "minecraft:savanna",
     {
-	    "id": "terralith:arid_highlands",
-	    "required": false
+        "id": "terralith:arid_highlands",
+        "required": false
     },
     {
-	    "id": "terralith:shrubland",
-	    "required": false
+        "id": "terralith:shrubland",
+        "required": false
     },
     {
-	    "id": "traverse:desert_shrubland",
-	    "required": false
+        "id": "traverse:desert_shrubland",
+        "required": false
     },
     {
         "id": "terrestria:dense_woodlands",

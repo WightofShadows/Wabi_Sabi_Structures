@@ -20,7 +20,7 @@
               "powered": "false"
             }
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -33,7 +33,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -46,7 +46,7 @@
           "output_state": {
             "Name": "minecraft:air"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -59,7 +59,7 @@
           "output_state": {
             "Name": "minecraft:potted_dandelion"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -72,7 +72,7 @@
           "output_state": {
             "Name": "minecraft:potted_poppy"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -85,7 +85,7 @@
           "output_state": {
             "Name": "minecraft:potted_red_tulip"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -98,7 +98,7 @@
           "output_state": {
             "Name": "minecraft:potted_orange_tulip"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -111,7 +111,7 @@
           "output_state": {
             "Name": "minecraft:potted_white_tulip"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -124,7 +124,7 @@
           "output_state": {
             "Name": "minecraft:potted_pink_tulip"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -137,7 +137,7 @@
           "output_state": {
             "Name": "minecraft:potted_oxeye_daisy"
           }
-		},
+        },
         {
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
@@ -150,7 +150,7 @@
           "output_state": {
             "Name": "minecraft:potted_lily_of_the_valley"
           }
-		}
+        }
       ]
     }
   ]

@@ -2,29 +2,29 @@
   "replace": false,
   "values": [
     "minecraft:taiga",
-	{
-		"id": "traverse:coniferous_forest",
-		"required": false
-	},
-	{
-		"id": "terrestria:hemlock_treeline",
-		"required": false
-	},
-	{
-		"id": "terralith:moonlight_grove",
-		"required": false
-	},
-	{
-		"id": "terralith:moonlight_valley",
-		"required": false
-	},
-	{
-		"id": "terralith:forested_highlands",
-		"required": false
-	},
-	{
-		"id": "terralith:lush_valley",
-		"required": false
-	}
+    {
+        "id": "traverse:coniferous_forest",
+        "required": false
+    },
+    {
+        "id": "terrestria:hemlock_treeline",
+        "required": false
+    },
+    {
+        "id": "terralith:moonlight_grove",
+        "required": false
+    },
+    {
+        "id": "terralith:moonlight_valley",
+        "required": false
+    },
+    {
+        "id": "terralith:forested_highlands",
+        "required": false
+    },
+    {
+        "id": "terralith:lush_valley",
+        "required": false
+    }
   ]
 }
